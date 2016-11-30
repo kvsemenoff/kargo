@@ -2,8 +2,104 @@
 @import "style.css";
 @import "style2.css";
 @import "style3.css";
-@import "style4.css";
 @import "fonts.css";
+.test{
+	text-align: center;
+	padding: 200px;
+	background:red;
+}
+
+// Общие стили ///////////////
+
+// Цвет
+$red:#FF3939;
+$brown:#343434;
+$green:#007000;
+
+// Заголовок
+h2{
+	font-family: TondoCorp;
+	font-size: 30px;
+}
+
+// Кнопка
+.button1{
+	background: #343434;
+	display: inline-block;
+	border-radius:10px;
+	padding:13px 27px;
+	color: #fff;
+	font-family: TondoCorp;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-decoration: underline;
+	border: 1px solid rgba(255, 255, 255, 0.55);
+	box-shadow: 2.5px 4.3px 5px rgba(0, 0, 0, 0.75);
+}
+
+// инпут
+.input-class{
+	outline:none;
+	border:none;
+	border-radius:10px;
+	height: 29px;
+	padding-left:15px;
+	font-family: TondoCorp;
+	font-size: 16px;
+	color:#343434;
+}
+
+// Чекбокс
+
+/* Скрываем реальный чекбокс */
+.checkbox {
+    display: none;
+}
+ 
+/* Задаем внешний вид для нашего кастомного чекбокса. Все обязательные свойства прокомментированы, остальные же свойства меняйте по вашему усмотрению */
+.checkbox-custom {
+    position: relative;      /* Обязательно задаем, чтобы мы могли абсолютным образом позиционировать псевдоэлемент внютри нашего кастомного чекбокса */
+    width: 31px;             /* Обязательно задаем ширину */
+    height: 30px;            /* Обязательно задаем высоту */
+    border: 2px solid #A18F8F;
+    background:none;
+    border-radius: 5px;
+    margin-top: 13px;
+}
+ 
+/* Кастомный чекбокс и лейбл центрируем по вертикали. Если вам это не требуется, то вы можете убрать свойство vertical-align: middle из данного правила, но свойство display: inline-block обязательно должно быть */
+.checkbox-custom,
+.label {
+    display: inline-block;
+    vertical-align: middle;
+}
+ 
+/* Если реальный чекбокс у нас отмечен, то тогда добавляем данный признак и к нашему кастомному чекбоксу  */
+.checkbox:checked + .checkbox-custom::before {
+    content: "";             /* Добавляем наш псевдоэлемент */
+    display: block;          /* Делаем его блочным элементом */
+    position: absolute;      /* Позиционируем его абсолютным образом */
+ 
+    /* Задаем расстояние от верхней, правой, нижней и левой границы */
+    top: 4px;
+    right: 2px;
+    bottom: 2px;
+    left: 2px;
+    background: url(../img/ab-galka.png) no-repeat;/* Добавляем фон. Если требуется, можете поставить сюда картинку в виде "галочки", которая будет символизировать, что чекбокс отмечен */
+    border-radius: 2px;
+}
+/*# sourceMappingURL=style.css.map */
+
+
+///////////////////////////////
+
+
+
+
+
+
+
+
 
 @media only screen and (min-width : 320px) {
 }
