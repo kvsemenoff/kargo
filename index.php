@@ -34,6 +34,7 @@
 
 	<?php require_once('includes/header.php'); ?>
 	<?php require_once('includes/db-capability.php'); ?>
+<<<<<<< HEAD
 	
 	<?php require_once('includes/whatiskargo.php'); ?>
 	<?php require_once('includes/whoneedkargo.php'); ?>
@@ -44,6 +45,8 @@
 	<?php require_once('includes/easytopay.php'); ?>
 	<?php require_once('includes/whywaiting.php'); ?>
 
+=======
+>>>>>>> 447414f99101249d701fb8f9cfbf3c919efac8f0
 	<?php require_once('includes/footer.php'); ?>
 
 	
