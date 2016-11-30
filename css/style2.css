@@ -1,8 +1,2 @@
-@import url(reset.css);
-@import url(style.css);
-@import url(style2.css);
-@import url(style3.css);
-@import url(style4.css);
-@import url(fonts.css);
-
+@import url(vars.css);.db-capability{text-align:center;background-color:#dd3c3c;padding:16px 0;font-size:18px;color:#fff}.db-capability h2{padding-bottom:20px}.db-capability p{padding-top:20px}.db-capability img{margin:0 auto}@media only screen and (min-width: 992px){.db-capability{text-align:left;font-size:24px}.db-capability .db-capability-inner_left{float:left}.db-capability .db-capability-inner_right{float:left}.db-capability .db-capability-inner{margin:0 auto;width:700px}.db-capability h2{margin-left:389px}}
 /*# sourceMappingURL=style2.css.map */
