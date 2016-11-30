@@ -34,6 +34,7 @@
 
 	<?php require_once('includes/header.php'); ?>
 	<?php require_once('includes/db-capability.php'); ?>
+	<?php require_once('includes/db-whatcancargo.php'); ?>
 	<?php require_once('includes/whatcancargo.php'); ?>	
 	<?php require_once('includes/whoneedkargo.php'); ?>
 	<?php require_once('includes/timekargo.php'); ?>
