@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
@@ -33,20 +33,9 @@
 	<script src="js/common.js"></script>
 
 	<?php require_once('includes/header.php'); ?>
-	<?php require_once('includes/db-capability.php'); ?>
-<<<<<<< HEAD
-	
-	<?php require_once('includes/whatiskargo.php'); ?>
-	<?php require_once('includes/whoneedkargo.php'); ?>
-	<?php require_once('includes/timekargo.php'); ?>
-	<?php require_once('includes/ekonomy95.php'); ?>
-	<?php require_once('includes/howmany.php'); ?>
-	<?php require_once('includes/easytouse.php'); ?>
-	<?php require_once('includes/easytopay.php'); ?>
-	<?php require_once('includes/whywaiting.php'); ?>
+	<!-- Подтверждение по СМС -->
+	<?php require_once('includes/confirmationsms.php'); ?>
 
-=======
->>>>>>> 447414f99101249d701fb8f9cfbf3c919efac8f0
 	<?php require_once('includes/footer.php'); ?>
 
 	
