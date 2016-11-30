@@ -50,46 +50,30 @@ h2{
 }
 
 // Чекбокс
-
-/* Скрываем реальный чекбокс */
 .checkbox {
     display: none;
 }
- 
-/* Задаем внешний вид для нашего кастомного чекбокса. Все обязательные свойства прокомментированы, остальные же свойства меняйте по вашему усмотрению */
 .checkbox-custom {
-    position: relative;      /* Обязательно задаем, чтобы мы могли абсолютным образом позиционировать псевдоэлемент внютри нашего кастомного чекбокса */
-    width: 31px;             /* Обязательно задаем ширину */
-    height: 30px;            /* Обязательно задаем высоту */
-    border: 2px solid #A18F8F;
-    background:none;
-    border-radius: 5px;
-    margin-top: 13px;
+    position: relative;      
+    width: 21px;             
+    height: 21px;            
+    background:url(../img/chek1.png) no-repeat;
 }
- 
-/* Кастомный чекбокс и лейбл центрируем по вертикали. Если вам это не требуется, то вы можете убрать свойство vertical-align: middle из данного правила, но свойство display: inline-block обязательно должно быть */
-.checkbox-custom,
-.label {
+.checkbox-custom, .label {
     display: inline-block;
     vertical-align: middle;
 }
- 
-/* Если реальный чекбокс у нас отмечен, то тогда добавляем данный признак и к нашему кастомному чекбоксу  */
 .checkbox:checked + .checkbox-custom::before {
-    content: "";             /* Добавляем наш псевдоэлемент */
-    display: block;          /* Делаем его блочным элементом */
-    position: absolute;      /* Позиционируем его абсолютным образом */
- 
-    /* Задаем расстояние от верхней, правой, нижней и левой границы */
+    content: "";             
+    display: block;          
+    position: absolute;      
     top: 4px;
     right: 2px;
     bottom: 2px;
-    left: 2px;
-    background: url(../img/ab-galka.png) no-repeat;/* Добавляем фон. Если требуется, можете поставить сюда картинку в виде "галочки", которая будет символизировать, что чекбокс отмечен */
+    left: 3px;
+    background: url(../img/galka.png) no-repeat;
     border-radius: 2px;
 }
-/*# sourceMappingURL=style.css.map */
-
 
 ///////////////////////////////
 
