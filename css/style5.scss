@@ -1,10 +1,107 @@
-@import "reset.css";
-@import "style.css";
-@import "style2.css";
-@import "style3.css";
-@import "style4.css";
-@import "fonts.css";
+.clear{
+	clear: both;
+}
 
+.df-timekargo{
+	//display: table;
+	//margin: 0 auto;
+	h2{
+		font-family: "Tondo";
+		font-size: 30px; color:#343434;
+		text-align: center;
+		margin: 25px 0 35px 0;
+	}
+	
+	.df-block1, .df-block2, .df-block3{
+		//display:table-cell;
+		//float: left;
+		border-right:1px solid red;
+		margin: 0 auto;
+
+		h4{
+			font-size: 18px; color:#343434; text-transform: uppercase;
+			text-align: center;
+			display: block;
+			padding-bottom: 11px;
+			border-bottom: 1px solid red;
+		}
+		span{
+			font-size: 16px;font-family: "Tondo";
+			border-bottom: 1px solid red;
+			height: 94px;
+		}
+		.dfbox{
+			//display:table;
+			//width: 320px;
+			width: 100%;
+			margin: 0 auto;
+			img{
+				//display: table-cell;
+				//float: left;
+				display: block;				
+				width: 60px;
+				height: 55px;
+				margin-top: 17px;
+
+				text-align: center;
+				margin: 0 auto;
+			}
+			span{
+				//display: table-cell;
+				text-align: center;
+				display: inline-block;		
+				font-size: 16px;color:#5a5959;
+				
+				padding: 18px 40px 18px 22px;
+				vertical-align: top;
+				
+			}
+		}
+	}
+
+	.df-block2, .df-block3{
+		//display:inline-block;
+		//width: 320px;
+		h4{
+			text-transform: none;
+		}
+		.dfpadright{
+			padding-right: 7px;
+		}
+		span{
+			display:inline-block;			
+			font-size: 16px;color:#5a5959;
+			text-align: left;
+			padding: 18px 70px 18px 22px;
+			vertical-align: top;
+			
+		}		
+	}
+
+	.df-block2{
+		h4{
+			color:#276f04;
+		}
+		span{
+			padding-bottom: 20px;
+			background: url(/img/df-plus.png)no-repeat left 12px center;
+			color:#276f04;
+			padding-left: 50px;
+		}
+	}
+	.df-block3{
+		border-right: none;
+		h4{
+			color:#fe0000;
+		}
+		span{
+			padding-bottom: 20px;
+			background: url(/img/df-minus.png)no-repeat left 12px center;
+			color:#fe0000;
+			padding-left: 50px;
+		}
+	}
+}
 @media only screen and (min-width : 320px) {
 }
 
@@ -12,6 +109,32 @@
 }
 
 @media only screen and (min-width : 768px) {
+	.df-timekargo{
+	display: table;
+	margin: 0 auto;	
+		.df-block1, .df-block2, .df-block3{
+			display:table-cell;
+			float: left;
+			.dfbox{
+			display:table;
+			width: 320px;			
+			img{
+				display: table-cell;
+				float: left;
+				margin-top: 17px;				
+			}
+			span{
+				display: table-cell;
+				text-align: left;			
+			}
+		}		
+		}
+		.df-block2, .df-block3{
+			display:inline-block;
+			width: 320px;		
+		}
+	
+	}
 }
 
 @media only screen and (min-width : 992px) {
