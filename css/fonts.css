@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "Tondo";
+  font-family: "tondo";
   src: url("../fonts/tondo/tondo.eot");
   src: local("☺"), url("../fonts/tondo/tondo.woff") format("woff"), url("../fonts/tondo/tondo.ttf") format("truetype"), url("../fonts/tondo/tondo.svg") format("svg");
   font-weight: normal;
@@ -8,5 +8,11 @@
   font-family: "BebasNeue";
   src: url("../fonts/BebasNeue/BebasNeue.eot");
   src: local("☺"), url("../fonts/BebasNeue/BebasNeue.woff") format("woff"), url("../fonts/BebasNeue/BebasNeue.ttf") format("truetype"), url("../fonts/BebasNeue/BebasNeue.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: url("../fonts/OpenSans-Bold/OpenSans-Bold.eot");
+  src: local("☺"), url("../fonts/OpenSans-Bold/OpenSans-Bold.woff") format("woff"), url("../fonts/OpenSans-Bold/OpenSans-Bold.ttf") format("truetype"), url("../fonts/OpenSans-Bold/OpenSans-Bold.svg") format("svg");
   font-weight: normal;
   font-style: normal; }

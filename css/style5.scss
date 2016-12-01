@@ -2,11 +2,12 @@
 	clear: both;
 }
 
+//				TIME-KARGOPHP
 .df-timekargo{
 	//display: table;
 	//margin: 0 auto;
 	h2{
-		font-family: "Tondo";
+		font-family: "tondo";
 		font-size: 30px; color:#343434;
 		text-align: center;
 		margin: 25px 0 35px 0;
@@ -17,7 +18,7 @@
 		//float: left;
 		border-right:1px solid red;
 		margin: 0 auto;
-
+		padding-bottom: 7px;
 		h4{
 			font-size: 18px; color:#343434; text-transform: uppercase;
 			text-align: center;
@@ -26,15 +27,18 @@
 			border-bottom: 1px solid red;
 		}
 		span{
-			font-size: 16px;font-family: "Tondo";
+			font-size: 16px;font-family: "tondo";
 			border-bottom: 1px solid red;
-			height: 94px;
+			height: 89px;//94
+			display: block;//
+			line-height: 16px;			
 		}
 		.dfbox{
 			//display:table;
 			//width: 320px;
 			width: 100%;
 			margin: 0 auto;
+			padding-top: 15px;			
 			img{
 				//display: table-cell;
 				//float: left;
@@ -49,12 +53,10 @@
 			span{
 				//display: table-cell;
 				text-align: center;
-				display: inline-block;		
-				font-size: 16px;color:#5a5959;
-				
-				padding: 18px 40px 18px 22px;
-				vertical-align: top;
-				
+				//display: inline-block;//		
+				font-size: 16px;color:#5a5959;				
+				padding: 12px 37px 18px 22px;
+				vertical-align: top;				
 			}
 		}
 	}
@@ -69,10 +71,10 @@
 			padding-right: 7px;
 		}
 		span{
-			display:inline-block;			
+			display:inline-block;	//		
 			font-size: 16px;color:#5a5959;
 			text-align: left;
-			padding: 18px 70px 18px 22px;
+			padding: 15px 42px 18px 22px;//7042
 			vertical-align: top;
 			
 		}		
@@ -90,16 +92,36 @@
 		}
 	}
 	.df-block3{
-		border-right: none;
+		
 		h4{
 			color:#fe0000;
+			border:none;
+			position: relative;
+		}
+		h4:after{
+			content: "";
+			position: absolute;
+			border-bottom: 1px solid red;
+			width: 205px;
+			left:0;
+			bottom:0;
 		}
 		span{
 			padding-bottom: 20px;
 			background: url(/img/df-minus.png)no-repeat left 12px center;
 			color:#fe0000;
 			padding-left: 50px;
+			position: relative;
+			border:none;
 		}
+		span:after{
+				content: "";
+				position: absolute;
+				border-bottom: 1px solid red;
+				width: 225px;
+				left:0;
+				bottom:0;
+			}
 	}
 }
 @media only screen and (min-width : 320px) {
@@ -117,7 +139,8 @@
 			float: left;
 			.dfbox{
 			display:table;
-			width: 320px;			
+			width: 320px;
+			padding-top: 0px !important;			
 			img{
 				display: table-cell;
 				float: left;
@@ -125,13 +148,23 @@
 			}
 			span{
 				display: table-cell;
-				text-align: left;			
+				text-align: left;
+				//display: inline-block;			
 			}
 		}		
 		}
 		.df-block2, .df-block3{
 			display:inline-block;
-			width: 320px;		
+			width: 320px;
+			span{
+				display:inline-block;
+			}		
+		}
+		.df-block2{
+			width: 263px;
+		}
+		.df-block3{
+			border-right: none;			
 		}
 	
 	}
