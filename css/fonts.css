@@ -1,7 +1,7 @@
 @font-face {
-  font-family: "tondo";
-  src: url("../fonts/tondo/tondo.eot");
-  src: local("☺"), url("../fonts/tondo/tondo.woff") format("woff"), url("../fonts/tondo/tondo.ttf") format("truetype"), url("../fonts/tondo/tondo.svg") format("svg");
+  font-family: "TondoCorp";
+  src: url("../fonts/TondoCorp-Signage/TondoCorp-Signage.eot");
+  src: local("☺"), url("../fonts/TondoCorp-Signage/TondoCorp-Signage.woff") format("woff"), url("../fonts/TondoCorp-Signage/TondoCorp-Signage.ttf") format("truetype"), url("../fonts/TondoCorp-Signage/TondoCorp-Signage.svg") format("svg");
   font-weight: normal;
   font-style: normal; }
 @font-face {

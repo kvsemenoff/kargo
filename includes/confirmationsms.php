@@ -8,11 +8,11 @@
 		На указанный Вами телефон +79261234567 выслан код для подтверждения.
 	</span>
 	<div class="line3">
-		<span class="txt"></span>
-		<input type="text" value="">
+		<span class="txt">Введите код из SMS</span>
+		<input class="input-class" type="text" value="">
 	</div>
 	<div class="line4">
 		<span class="cpt"><a href="#">Выслать код повторно</a></span>
 	</div>
-	<a href="" class="registration">Зарегистрироваться</a>	
+	<a href="" class="button1 registration">Зарегистрироваться</a>	
 </div>
