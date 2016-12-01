@@ -8,13 +8,36 @@
 	font-size:18px;
 	color:#fff;
 	h2{
-	padding-bottom:20px;
+		padding-bottom:20px;
 	}
 	p{
-	padding-top:20px;
+		padding-top:20px;
 	}
 	img{
-	margin:0 auto;
+		margin:0 auto;
+	}
+}
+
+.db-whatcancargo{
+	text-align:center;
+	padding:16px 0;
+	font-size:18px;
+	h2{
+		padding-bottom:20px;
+	}
+	.db-box{
+		padding-bottom:25px;
+		
+	}
+	.db-text_box{
+		background-color:#dd3c3c;
+		color:#fff;
+		border-radius:10px;
+		padding:7px 0;
+		margin-top:10px;
+	}
+	.db_img_box{
+		height:131px;	
 	}
 }
 
@@ -30,26 +53,26 @@
 }
 
 @media only screen and (min-width : 992px) {
-.db-capability{
-text-align:left;
-font-size:24px;
-.db-capability-inner_left{
-float:left;
+	.db-capability{
+		text-align:left;
+		font-size:24px;
+		
+		.db-capability-inner_left{
+			float:left;
+		}
+		.db-capability-inner_right{
+			float:left;
+		}
+		.db-capability-inner{
+			margin:0 auto;
+			width:700px;
+		}
+		h2{
+			margin-left:389px;
+		}
+	}
 }
-.db-capability-inner_right{
-float:left;
-}
-.db-capability-inner{
-margin:0 auto;
-width:700px;
-}
-h2{
-margin-left:389px;
-}
-
-}
-}
-
+	
 @media only screen and (min-width : 1248px) {
 }
 
