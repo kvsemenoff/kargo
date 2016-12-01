@@ -53,32 +53,64 @@
 	}
 	.db-all_box{
 		margin:0 auto;
+		width:100%;
+		max-width:900px;
 		box-shadow: 4px 3px 3px #575555 inset; 
-		hr{
-			border: none; 
-			color: red; 
-			background-color: red;
-			height: 3px; 
-			border-radius:10px;
-			width:99.7%;
-			box-shadow: 0 5px 6px rgba(0,0,0,0.5);
-		}
+			hr{
+				border: none; 
+				color: red; 
+				background-color: red;
+				height: 3px; 
+				border-radius:10px;
+				box-shadow: 7px 5px 10px #575555;
+			}
 	}
 	.db-check_box-one{
 		float:left;
 		padding:16px 0;
 	}
 	.db-check_box-one img{
-		margin-left:108px;
+		margin-left:85px;
 	}	
 	.db-check_box-two{
 		float:left;
 		color:#4f4d4d;
 		font-size:20px;
-		padding-bottom:20px;
+		padding:0 5px 20px 5px;
 	}
 	.db-all_box{
 		background-color:#fff;
+		font-size:20px;
+	}
+	.db-all_box_days{
+		background-color:#4f4d4d;
+		border-bottom:5px solid #fff;
+		margin-left:5px;
+		span{
+			color:#dd3c3c;
+		}
+			.db-box-all_days{
+				float:left;
+				width:100%;
+				margin:0 auto;
+					.db-all_days{
+						padding:10px 0;
+						border-bottom:1px solid #b7b6b6;
+						display:block;	
+						color:#fff;
+					}
+					.db-all_money{
+						padding:10px 0;
+						border-bottom:3px solid #b7b6b6;
+					}
+					.db-all_last{
+						border-right:none;
+					}
+			}
+	}
+	.db-all-button{
+		padding:20px 0;
+		margin-top:10px;
 	}
 	
 	
@@ -91,6 +123,7 @@
 }
 
 @media only screen and (min-width : 768px) {
+	
 }
 
 @media only screen and (min-width : 992px) {
@@ -112,7 +145,40 @@
 			margin-left:389px;
 		}
 	}
+	.db-howmany{
+		.db-box-all_days{
+		width:298px !important;
+		
+		}
+		.db-check_box_2{
+		padding-top:20px !important;
+		}
+		.db-check_box-two{
+		text-align:left;
+		}
+		.db-all_days{
+			border-right:3px solid #b7b6b6;
+		}
+		.db-all_money{
+			border-bottom:none !important;
+			border-right:3px solid #b7b6b6;
+		}
+		.db-check_box-one{
+			padding: 10px;
+		}
+		.db-check_box-one img{
+			margin-left:67px;
+			margin-top:0px;
+		}
+		.db-check_box-two{
+			padding:12px;
+		}
+		hr{
+			margin-top:0px;
+		}
+	}
 }
+
 	
 @media only screen and (min-width : 1248px) {
 }
