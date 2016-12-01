@@ -100,7 +100,7 @@
 				<span>...</span>
 				<a href="#">97</a>
 			</div>
-			<a href="#" class="df-warning">Внимание! В истории запросов хранятся результаты за 3 месяца.</a>
+			<span class="df-warning">Внимание! В истории запросов хранятся результаты за 3 месяца.</span>
 		</div>
 		<div class="clear"></div>
 	</div>	
