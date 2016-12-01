@@ -1,9 +1,297 @@
-@import "reset.css";
-@import "style.css";
-@import "style2.css";
-@import "style3.css";
-@import "style4.css";
-@import "fonts.css";
+.clear{
+	clear: both;
+}
+
+//				TIME-KARGOPHP
+.df-timekargo{
+	//display: table;
+	//margin: 0 auto;
+	h2{
+		font-family: "tondo";
+		font-size: 30px; color:#343434;
+		text-align: center;
+		margin: 25px 0 57px 0;//35
+		font-family: TondoCorp;
+	}
+	
+	.df-block1, .df-block2, .df-block3{
+		//display:table-cell;
+		//float: left;
+		border-right:1px solid red;
+		margin: 0 auto;
+		padding-bottom: 7px;
+		h4{
+			font-size: 18px; color:#343434; text-transform: uppercase;
+			text-align: center;
+			display: block;
+			padding-bottom: 11px;
+			border-bottom: 1px solid red;
+			font-family: TondoCorp;
+		}
+		span{
+			font-size: 16px;font-family: "tondo";
+			border-bottom: 1px solid red;
+			height: 89px;//94
+			display: block;//
+			line-height: 16px;
+			font-family: TondoCorp;			
+		}
+		.dfbox{
+			//display:table;
+			//width: 320px;
+			width: 100%;
+			margin: 0 auto;
+			padding-top: 15px;			
+			img{
+				//display: table-cell;
+				//float: left;
+				display: block;				
+				width: 60px;
+				height: 55px;
+				margin-top: 17px;
+
+				text-align: center;
+				margin: 0 auto;
+			}
+			span{
+				//display: table-cell;
+				text-align: center;
+				//display: inline-block;//		
+				font-size: 16px;color:#5a5959;				
+				padding: 12px 37px 18px 22px;
+				vertical-align: top;				
+			}
+		}
+	}
+
+	.df-block2, .df-block3{
+		//display:inline-block;
+		//width: 320px;
+		h4{
+			text-transform: none;
+		}
+		.dfpadright{
+			padding-right: 7px;
+		}
+		span{
+			//display:inline-block;
+			display: block;		
+			font-size: 16px;color:#5a5959;
+			text-align: left;
+			padding: 15px 42px 18px 22px;//7042
+			vertical-align: top;
+			
+		}		
+	}
+
+	.df-block2{
+		h4{
+			color:#276f04;
+		}
+		span{
+			padding-bottom: 20px;
+			background: url(/img/df-plus.png)no-repeat left 12px center;
+			color:#276f04;
+			padding-left: 50px;
+		}
+	}
+	.df-block3{
+		
+		h4{
+			color:#fe0000;
+			border-bottom: 1px solid red;
+		}		
+		span{
+			padding-bottom: 20px;
+			background: url(/img/df-minus.png)no-repeat left 12px center;
+			color:#fe0000;
+			padding-left: 50px;			
+			border-bottom: 1px solid red;
+		}
+		
+	}
+}
+
+
+// economy95
+.dfmargin{
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 30px;
+	.df-economy{	
+		display: inline-block;
+		max-width: 675px;
+		width: 100%;
+		//margin-left: 107px;
+		.df-imgbox{
+			display: inline-block;
+			float: left;
+			width: 125px;
+			height: 110px;
+		}
+		span{
+			display: block;
+			font-family: TondoCorp;
+			float: left;
+			font-size: 24px; color:#dd3c3c;
+			font-family: "Arial";
+			font-weight: bold;
+			width:75%;
+			text-align: left;			
+			margin: 8px 0 0 17px;
+		}	
+	}
+	.dfbutton{
+		//margin-left: 20px;
+		
+		text-align: left;
+		.button1{
+			padding: 13px 35px;
+		}
+	}
+}
+
+
+
+
+//history zapros)
+.my-container{
+	max-width: 1215px;
+	width: 100%;
+	margin: 0 auto;
+}
+.df-history{
+	.df-toptext{
+		margin-bottom: 7.5px;
+		span{
+			font-size: 16px; color:#373737;
+			display: inline-block;
+			font-family: TondoCorp;
+		}
+		.df-show-in{
+			display: inline-block;
+			font-family: TondoCorp;
+			float: right;
+			span{
+				color:#373737;
+				font-size: 14px;
+				display: inline-block;
+			}
+			a{
+				text-decoration: underline;
+				color:#373737;
+				font-size: 14px;
+				display: inline-block;
+			}
+			a:hover{
+				text-decoration: none;
+			}
+			a.active{
+				text-decoration: none;
+			}
+		}
+	}
+	.df-table{
+		.df-topcaption{
+			height: 38px;
+			background: #dd3c3c;			
+			td{
+				font-size: 14px; color:#ffffff;font-family: TondoCorp;
+				text-decoration: underline;
+				padding: 12px 0 10px 0;
+				text-align: center;
+			}
+			td:nth-child(1){width: auto;  }
+			td:nth-child(2){width: auto;}
+			td:nth-child(3){ width: auto;}
+			td:nth-child(4){ width: auto;}
+		}
+		.df-text-blocks{
+			font-family: TondoCorp;
+			border-bottom: 1px solid #e25d5d;
+			.df1, .df2, .df3, .df4{
+				text-align: center;
+				vertical-align: middle;
+				border-right:1px solid #e25d5d;
+				em{
+					color:#2b7a04;font-size: 12px;
+				}
+				span{
+					color:#373737;font-size: 12px;
+				}
+			}
+			.df1{
+				color:#2b7a04;
+				font-size: 14px;							
+			}
+			.df2{
+				font-size: 18px;
+				color:#373737;
+			}
+			.df3{
+				padding-left: 7px;
+				padding-top: 23px;
+				em{
+					font-size: 14px;
+				}				
+				span{
+					font-size: 14px;				
+					display: inline-block;
+				}				
+				a{
+					font-size: 14px;color:#dd3c3c;
+					text-decoration: underline;
+				}
+				a:hover{
+					text-decoration: none;
+				}
+			}
+			.df4{
+				padding: 12px 0px 15px 20px;
+				border-right: none;
+				line-height: 12.5px;
+
+			}
+			.df3, .df4{
+				text-align: left;
+			}
+		}
+	}
+	.df-bottomtext{
+		margin: 7px 0 185px 0;
+		.df-show-in{
+			display: inline-block;
+			font-family: TondoCorp;
+			padding-top: 10px;
+			span{
+				color:#373737;
+				font-size: 14px;
+				display: inline-block;
+			}
+			a{
+				text-decoration: underline;
+				color:#373737;
+				font-size: 14px;
+				display: inline-block;
+			}
+			a:hover{
+				text-decoration: none;
+			}
+			a.active{
+				text-decoration: none;
+			}
+		}
+		.df-warning{
+			float: right;
+			display: inline-block;
+			font-size: 14px; color:#dd3c3c;font-family: TondoCorp;
+			text-decoration: underline;
+		}
+		.df-warning:hover{
+			text-decoration: none;
+		}
+	}
+}
 
 @media only screen and (min-width : 320px) {
 }
@@ -12,9 +300,98 @@
 }
 
 @media only screen and (min-width : 768px) {
+	.df-timekargo{
+	display: table;
+	margin: 0 auto;	
+		.df-block1, .df-block2, .df-block3{
+			display:table-cell;
+			float: left;
+			.dfbox{
+			display:table;
+			width: 320px;
+			padding-top: 0px !important;			
+			img{
+				display: table-cell;
+				float: left;
+				margin-top: 17px;				
+			}
+			span{
+				display: table-cell;
+				text-align: left;
+				//display: inline-block;			
+			}
+		}		
+		}
+		.df-block2, .df-block3{
+			display:inline-block;
+			width: 320px;
+			span{
+				display:inline-block;
+			}		
+		}
+		.df-block2{
+			width: 263px;
+		}
+		.df-block3{
+			border-right: none;
+			h4{			
+			border:none;
+			position: relative;
+			}
+			h4:after{
+				content: "";
+				position: absolute;
+				border-bottom: 1px solid red;
+				width: 205px;
+				left:0;
+				bottom:-1px;
+			}			
+			span{			
+			position: relative;
+			border:none;
+			}
+			span:after{
+				content: "";
+				position: absolute;
+				border-bottom: 1px solid red;
+				width: 225px;
+				left:0;
+				bottom:-1px;
+			}			
+		}
+	
+	}
+
+	//economy95
+	.dfmargin{	
+		.df-economy{		
+			margin-left: 107px;
+		}
+		.dfbutton{
+			margin-left: 20px;
+			text-align: center;
+		}
+	}
+
 }
 
+
+
+
+
 @media only screen and (min-width : 992px) {
+	//history zapros)
+
+	.df-table{			
+		td:nth-child(1){ min-width: 215px; }
+		td:nth-child(2){ min-width: 172px;}
+		td:nth-child(3){ min-width: 300px;}
+		// td:nth-child(4){ min-width: 410px;}//510
+	}
+	.df4{
+		padding: 12px 45px 15px 20px;
+	}
+	
 }
 
 @media only screen and (min-width : 1248px) {

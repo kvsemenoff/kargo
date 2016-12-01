@@ -9,13 +9,13 @@
 $tdu : underline;
 
 .de-confirm_by_sms{
-	border-radius: 10px;
+	border-radius: 10px; 
 	font-family: 'TondoCorp'; 
-	background-color: $red;
-	margin: 0 10px;
-	padding: 10px;	
-	text-align: center;
-	color: #fff;
+	background-color: $red; 
+	margin: 0 3px; 
+	padding: 10px; 
+	text-align: center; 
+	color: #fff; 
 	.line1{
 		.caption{
 			font-size: 18px;
@@ -64,6 +64,122 @@ $tdu : underline;
 	}
 }
 
+// 2 block 
+.userprofile{
+	margin-top: 10px;
+
+	.up-caption{
+		font-size: 16px; 
+		font-family: 'TondoCorp'; 
+		// margin-top: -10px;
+		text-align: left;
+		.caption{
+			
+			.caption_green{
+				color: #007B00; 
+			}
+		}
+		
+	}
+	.up-form{
+
+		border-radius: 10px;
+		font-family: 'TondoCorp'; 
+		background-color: $red; 
+		margin: 0 auto; 
+		margin: 0 3px; 
+		text-align: center; 
+		color: #fff; 
+
+		text-align: center;
+		height: 280px; 
+		height: 329px; 
+		margin: 0 auto; 
+
+		.ln1{
+			padding-top: 23px;
+			.label1{
+				font-size: 16px; 
+				margin-left: -1px; 
+			}
+			.btn-for-label1{
+				margin-left: 27px;
+				height: 31px;
+				// width: 285px;
+			}
+		}
+		.ln2{
+			padding-top: 10px;
+			.label2{
+				font-size: 16px;
+				margin-left: -1px; 
+			}
+			.btn-for-label2{
+				margin-left: 27px;
+				height: 31px;
+				// width: 285px;
+			}
+		}
+		.ln3{
+			padding-top: 10px;
+			.label3{
+				font-size: 16px;
+				margin-left: -10px; 
+			}
+			.btn-for-label3{
+				margin-left: 19px; 
+				height: 31px; 
+				// width: 285px; 
+			}
+		}
+		.ln4{
+			padding-top: 18px;    	
+			.label4{
+				font-size: 16px;
+				margin-left: -60px;
+			}
+			.chpass_caption{
+				margin-left: 27px;
+				color: #fff;
+				text-decoration: underline;
+			}
+		}
+		.ln5{
+
+			padding-top: 19px;
+			.check_caption{
+				font-size: 14px;
+				text-decoration: underline;
+			}
+			label{
+				margin-left: -2px;
+				.label{
+					margin-left: 11px;
+				}
+			}
+		}
+		
+		.ln6{
+			margin-top: 26px;
+			.button1{
+				text-transform: none;
+				padding: 9px 49px;
+				display: block;
+			}
+
+			.save{
+				font-size: 16px;
+				
+			}
+			.cancel{
+				font-size: 16px;
+				margin-top: 10px;
+				
+			}
+		}
+	}
+}
+
 
 @media only screen and (min-width : 320px) {
 	.de-confirm_by_sms{
@@ -73,6 +189,64 @@ $tdu : underline;
 		.line4{
 			.cpt{
 				margin-left: -27px;
+			}
+		}
+	}
+}
+
+@media only screen and (min-width : 362px) {
+	.userprofile{
+
+		.up-form{
+			height: 280px; 
+			.ln6{				
+				.button1{					
+					display: inline;
+					width: 300px;
+				}
+
+				.save{
+					
+				}
+				.cancel{
+					
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (min-width : 400px) {
+	//
+	.userprofile{
+
+		.up-form{
+			height: 280px; 
+			.ln1{
+				.btn-for-label1{
+					width: 285px;
+				}
+			}
+			.ln2{
+				.btn-for-label2{
+					width: 285px;
+				}
+			}
+			.ln3{
+
+				.btn-for-label3{
+					width: 285px; 
+				}
+			}
+
+			.ln4{
+				padding-top: 18px;    	
+				.label4{
+					margin-left: -172px;
+				}
+				.chpass_caption{
+					margin-left: 27px;
+				}
 			}
 		}
 	}
@@ -95,12 +269,48 @@ $tdu : underline;
 			}
 		}
 	}
+
+	//
 }
+
+
+@media only screen and (min-width : 700px) {
+	.userprofile{
+
+		.up-caption{
+			width: 680px;
+			margin: 0 auto;
+			// margin-top: -9px;
+			padding-left: 11px;
+			margin-bottom: 10px;
+		}
+		
+		.up-form{
+			width: 680px;
+			margin: 0 auto;
+		}
+	}
+
+}
+
 
 @media only screen and (min-width : 768px) {
 }
 
+@media only screen and (min-width : 830px) {
+	//
+	.de-confirm_by_sms{
+		width: 826px;
+		margin: 0 auto; 
+	}
+}
+
 @media only screen and (min-width : 992px) {
+	//
+	.de-confirm_by_sms{
+		width: 826px;
+		margin: 0 auto; 
+	}
 }
 
 @media only screen and (min-width : 1248px) {
