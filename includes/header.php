@@ -1,5 +1,21 @@
 <section class="dd-header">
-	ввв
+	<div class="main-container">
+		<div class="dd-logo">
+			<img src="img/dd-logo.png">
+		</div>
+		<div class="dd-main-menu hidden-xs hidden-sm">
+			<ul>
+				<li><a href="#">Что такое карго код?</a></li>
+				<li><a href="#">Кому нужен карго код?</a></li>
+				<li><a href="#">Возможности</a></li>
+				<li><a href="#">Стоимость</a></li>
+			</ul>
+		</div>
+		<div class="dd-log-in">
+			<a href="#">Регистрация</a>
+			<a href="#">Войти</a>
+		</div>
+	</div>
 </section>
 
 

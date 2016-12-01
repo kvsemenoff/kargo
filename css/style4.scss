@@ -76,8 +76,21 @@ h2{
 
 .dd-header{
 	width: 100%;
-	background: url('../img/close.png') no-repeat top center;
+	background: url('../img/dd-h.jpg') no-repeat top center;
 	background-size:cover; 
+	.main-container{
+		padding: 16px 30px;
+		.dd-logo{
+
+		}
+		.dd-main-menu{
+			ul{
+				li{
+					display: inline-block;
+				}
+			}
+		}
+	}
 }
 
 /* Меню для мобильных устройств */
@@ -148,7 +161,6 @@ h2{
     	}
     }
 }
-
 .menu-list-pressed{
     border-radius:10px;
     width: 228px;
