@@ -32,11 +32,10 @@
 	<script src="js/jquery.maskedinput.min.js"></script>
 	<script src="js/common.js"></script>
 
-	<?php require_once('includes/header.php'); ?>
-	<!-- Обработка -->
-	<?php require_once('includes/processing.php'); ?>
+	<?php require_once('includes/header-processing.php'); ?>
+	
 
-	<?php require_once('includes/footer.php'); ?>
+	<?php require_once('includes/footer-processing.php'); ?>
 
 	
 </body>
