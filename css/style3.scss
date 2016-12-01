@@ -66,9 +66,21 @@ $tdu : underline;
 
 // 2 block 
 .userprofile{
-	
+	margin-top: 10px;
 
-
+	.up-caption{
+		font-size: 16px; 
+		font-family: 'TondoCorp'; 
+		// margin-top: -10px;
+		text-align: left;
+		.caption{
+			
+			.caption_green{
+				color: #007B00; 
+			}
+		}
+		
+	}
 	.up-form{
 
 		border-radius: 10px;
@@ -148,7 +160,7 @@ $tdu : underline;
 		}
 		
 		.ln6{
-			margin-top: 15px;
+			margin-top: 26px;
 			.button1{
 				text-transform: none;
 				padding: 9px 49px;
@@ -265,6 +277,14 @@ $tdu : underline;
 @media only screen and (min-width : 700px) {
 	.userprofile{
 
+		.up-caption{
+			width: 680px;
+			margin: 0 auto;
+			// margin-top: -9px;
+			padding-left: 11px;
+			margin-bottom: 10px;
+		}
+		
 		.up-form{
 			width: 680px;
 			margin: 0 auto;
