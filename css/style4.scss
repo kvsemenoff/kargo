@@ -202,7 +202,7 @@ h2{
     		a{
     			color: #fff;
     			font-family: TondoCorp;
-    			font-size: 17px;
+    			font-size: 16px;
     		}
 		    a:before{
 		        position: absolute;
@@ -263,6 +263,22 @@ h2{
 
 /*Конец menu styles*/
 
+// Конец шапки //////////////////
+
+// Футер ////////////////////////
+
+.dd-footer{
+	background: $brown;
+	.col-md-8{
+		outline: 1px solid red;
+	}
+	.col-md-4{
+		outline: 1px solid red;
+	}
+}
+
+
+// Конец Футера /////////////////
 
 
 
