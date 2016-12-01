@@ -4,6 +4,11 @@
 @import "style3.css";
 @import "fonts.css";
 
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
 // Общие стили ///////////////
 
 // Цвет
@@ -151,7 +156,10 @@ h2{
 		}
 	}
 }
-
+.dd-header-pass-remember{
+	background: none;
+	height: auto;
+}
 /* Меню для мобильных устройств */
 
     #check_1{
@@ -269,17 +277,232 @@ h2{
 
 .dd-footer{
 	background: $brown;
-	.col-md-8{
-		outline: 1px solid red;
+	padding:22px 0px; 
+	.footer-logo, .dd-footer-txt, .dd-log-in{
+		margin-bottom:22px;
+		text-align:center;
+	} 
+	.footer-logo{
+		.dd-logo-txt{
+			span{
+				color: white;
+				font-family:"TondoCorp";
+				font-size: 12px;
+				span{
+					text-transform:uppercase;
+				}
+			}
+		}
 	}
-	.col-md-4{
-		outline: 1px solid red;
+	.dd-footer-txt{
+		ul{
+			li{
+				a{
+					color: white;
+					font-family: "TondoCorp";
+					font-size: 17px;
+					line-height: 24px;
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+	.dd-log-in{
+		// width: 292px;
+		margin: 0 auto;	
+		border-radius:10px;
+		background: $red;
+		padding:7px 0px;
+		// padding:7px 0px 7px 31px;
+		opacity: 0.9;
+		box-shadow: 2.5px 4.3px 5px rgba(0, 0, 0, 0.18);
+		a{
+			display: inline-block;
+			color: white;
+			font-family: "TondoCorp";
+			font-size: 16px;
+			text-decoration:underline;
+		}
+		a:first-child{
+			padding-right:7px; 
+		}
+		a:last-child{
+			border-left:1px solid #fff;
+			padding-left:8px; 
+		}
+	}
+
+	.dd-oferta{
+		width: 183px;
+		margin:15px auto;
+		a{
+			display: inline-block;
+			color: white;
+			font-family: "TondoCorp";
+			font-size: 12px;
+			line-height: 24px;
+			text-decoration: underline;
+		}
 	}
 }
 
-
 // Конец Футера /////////////////
 
+// Обработка ////////////////////
+.dd-header-processing{
+	min-height: 100%;
+    margin-bottom: -242px;
+	width: 100%;
+	background-size:cover; 
+	.main-container{
+		padding: 16px 30px;
+
+		.dd-logo{
+			text-align:center;
+		}
+		.dd-main-menu{
+			ul{
+				border-radius:10px;
+				background: $red;
+				width: 674px;
+				padding:7px 0px;
+				opacity: 0.9;
+				li{
+					display: inline-block;
+					padding-left:16px; 
+					a{
+						color: white;
+						font-family: "TondoCorp";
+						font-size: 17px;
+					}
+				}
+			}
+		}
+		.dd-log-in{
+			width: 204px;
+			margin: 0 auto;	
+			border-radius:10px;
+			background: $red;
+			padding:7px 0px 7px 32px;
+			opacity: 0.9;
+			box-shadow: 2.5px 4.3px 5px rgba(0, 0, 0, 0.18);
+			a{
+				display: inline-block;
+				color: white;
+				font-family: "TondoCorp";
+				font-size: 16px;
+			}
+			a:first-child{
+				padding-right:7px; 
+			}
+			a:last-child{
+				border-left:2px solid #fff;
+				padding-left:8px; 
+			}
+		}
+		.dd-obrabotka-wrap{
+			margin-top: 31px;
+			.dd-title{
+				padding-bottom:7px; 
+				padding-left: 5px;
+				display: inline-block;
+				span{
+					color: #373737;
+					font-family:"TondoCorp";
+					font-size: 16px;
+				}
+			}
+			.dd-bg{
+				background: $red;
+				// padding: 19px 53px; dekstop
+				padding: 19px 10px;
+				border-radius:10px;
+				.dd-form{
+					.dd-name{
+						span{
+							color: white;
+							font-family: "TondoCorp";
+							font-size: 16px;	
+						}
+					}
+					.dd-input{
+						position: relative;
+						.input-class{
+							width: 100%;
+						}
+						.dd-submit{
+							position: absolute;
+							right:11px;
+							top:2px;
+						}
+					}
+					.dd-butt{
+						text-align:center;
+						margin-top:10px;
+						.button1{
+							color: white;
+							font-family: "TondoCorp";
+							font-size: 18px;
+							text-decoration: underline;
+							text-transform:none;
+							padding:5px 52px;
+						}
+					}
+				}
+			}
+			.dd-result{
+				margin-top: 26px;
+				padding-left: 12px;
+				span{
+					font-family: "TondoCorp";
+					font-size: 18px;
+					color: #373737;
+					display: block;
+				}
+				.dd-c-w{
+					display: inline-block;
+					.dd-c{
+						display: inline-block;
+						color: #2b7a04;
+					}
+				}
+			}
+		}
+	}
+}
+* html .dd-header-processing {
+    height: 100%;
+}
+.proof{
+	height: 50px;
+}
+.dd-log-info{ 
+	width: 360px;
+	padding-left:10px; 
+	span{
+		font-family:"TondoCorp";
+		font-size: 12px;
+		color: #373737;
+		span{
+			color: #2b7a04;
+		}
+	}
+	.dd-pleft{
+		margin-left:14px;
+	}
+	a{
+		font-family:"TondoCorp";
+		font-size: 12px;
+		color: #373737;
+		text-decoration: underline;
+	}
+}
+.dd-log-info2{
+	span{
+		// display: block;
+	}
+}
+// Конец обработка //////////////
 
 
 
@@ -292,9 +515,16 @@ h2{
 }
 
 @media only screen and (min-width : 768px) {
+
+
+
+
+
+
 }
 
 @media only screen and (min-width : 992px) {
+
 	.dd-header{ 
 		padding-top:0px;
 		.main-container{
@@ -315,6 +545,86 @@ h2{
 					font-size:60px;
 				}
 			}
+		}
+	}
+	.dd-header-processing{
+		padding-top:0px;
+		.main-container{
+			.dd-logo{
+				width: 284px;
+				text-align:left;
+				float:left;
+			}
+			.dd-main-menu{
+				float:left;
+			}
+			.dd-log-in{
+				float:right;
+			}
+			.dd-slogan{
+				margin-top:110px;
+				span{
+					font-size:60px;
+				}
+			}
+			.dd-obrabotka-wrap{
+				.dd-title{
+					padding-bottom:5px; 
+				}
+				.dd-bg{
+					padding: 19px 53px;
+					.dd-form{
+						display: table;
+						.dd-name{
+							width: 193px;
+							display: table-cell;
+						}
+						.dd-input{
+							display: table-cell;
+							.input-class{
+								width: 372px;
+							}
+							.dd-submit{
+							top:4px;
+						}
+					}
+
+					.dd-butt{
+						text-align:left;
+						margin-top:0px;
+						a{
+							margin-left:22px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+	.dd-footer{
+		.footer-logo, .dd-footer-txt, .dd-log-in{
+			text-align:left;
+		} 
+		.footer-logo{
+			width: 288px;
+			float:left;
+			.dd-img{
+				padding-left:10px; 
+			}
+		}
+		.dd-footer-txt{
+			float:left;
+		}
+		.dd-footer-txt2{
+			width: 243px;
+		}
+		.dd-log-in{
+			width: 292px;
+			margin-left: 0px;	
+			padding:7px 0px 7px 31px;
+		}
+		.dd-log-in-processing{
+			padding:7px 0px 7px 73px;
 		}
 	}
 }
