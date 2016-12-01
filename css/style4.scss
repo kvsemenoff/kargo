@@ -4,6 +4,11 @@
 @import "style3.css";
 @import "fonts.css";
 
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
 // Общие стили ///////////////
 
 // Цвет
@@ -342,10 +347,13 @@ h2{
 
 // Обработка ////////////////////
 .dd-header-processing{
+	min-height: 100%;
+    margin-bottom: -242px;
 	width: 100%;
 	background-size:cover; 
 	.main-container{
 		padding: 16px 30px;
+
 		.dd-logo{
 			text-align:center;
 		}
@@ -364,25 +372,6 @@ h2{
 						font-family: "TondoCorp";
 						font-size: 17px;
 					}
-				}
-			}
-			.dd-log-info{
-				width: 360px;
-				padding-left:10px; 
-				outline: 1px solid red;
-				span{
-					font-family:"TondoCorp";
-					font-size: 12px;
-					color: #373737;
-					span{
-						color: #2b7a04;
-					}
-				}
-				a{
-					font-family:"TondoCorp";
-					font-size: 12px;
-					color: #373737;
-					text-decoration: underline;
 				}
 			}
 		}
@@ -408,10 +397,108 @@ h2{
 				padding-left:8px; 
 			}
 		}
+		.dd-obrabotka-wrap{
+			margin-top: 31px;
+			.dd-title{
+				padding-bottom:7px; 
+				padding-left: 5px;
+				display: inline-block;
+				span{
+					color: #373737;
+					font-family:"TondoCorp";
+					font-size: 16px;
+				}
+			}
+			.dd-bg{
+				background: $red;
+				// padding: 19px 53px; dekstop
+				padding: 19px 10px;
+				border-radius:10px;
+				.dd-form{
+					.dd-name{
+						span{
+							color: white;
+							font-family: "TondoCorp";
+							font-size: 16px;	
+						}
+					}
+					.dd-input{
+						position: relative;
+						.input-class{
+							width: 100%;
+						}
+						.dd-submit{
+							position: absolute;
+							right:11px;
+							top:2px;
+						}
+					}
+					.dd-butt{
+						text-align:center;
+						margin-top:10px;
+						.button1{
+							color: white;
+							font-family: "TondoCorp";
+							font-size: 18px;
+							text-decoration: underline;
+							text-transform:none;
+							padding:5px 52px;
+						}
+					}
+				}
+			}
+			.dd-result{
+				margin-top: 26px;
+				padding-left: 12px;
+				span{
+					font-family: "TondoCorp";
+					font-size: 18px;
+					color: #373737;
+					display: block;
+				}
+				.dd-c-w{
+					display: inline-block;
+					.dd-c{
+						display: inline-block;
+						color: #2b7a04;
+					}
+				}
+			}
+		}
 	}
 }
-
-
+* html .dd-header-processing {
+    height: 100%;
+}
+.proof{
+	height: 50px;
+}
+.dd-log-info{ 
+	width: 360px;
+	padding-left:10px; 
+	span{
+		font-family:"TondoCorp";
+		font-size: 12px;
+		color: #373737;
+		span{
+			color: #2b7a04;
+		}
+	}
+	.dd-pleft{
+		margin-left:14px;
+	}
+	a{
+		font-family:"TondoCorp";
+		font-size: 12px;
+		color: #373737;
+		text-decoration: underline;
+	}
+}
+.dd-log-info2{
+	span{
+		// display: block;
+	}
+}
 // Конец обработка //////////////
 
 
@@ -430,9 +517,11 @@ h2{
 
 
 
+
 }
 
 @media only screen and (min-width : 992px) {
+
 	.dd-header{ 
 		padding-top:0px;
 		.main-container{
@@ -475,8 +564,40 @@ h2{
 					font-size:60px;
 				}
 			}
+			.dd-obrabotka-wrap{
+				.dd-title{
+					padding-bottom:5px; 
+				}
+				.dd-bg{
+					padding: 19px 53px;
+					.dd-form{
+						display: table;
+						.dd-name{
+							width: 193px;
+							display: table-cell;
+						}
+						.dd-input{
+							display: table-cell;
+							.input-class{
+								width: 372px;
+							}
+							.dd-submit{
+							top:4px;
+						}
+					}
+
+					.dd-butt{
+						text-align:left;
+						margin-top:0px;
+						a{
+							margin-left:22px;
+						}
+					}
+				}
+			}
 		}
 	}
+}
 	.dd-footer{
 		.footer-logo, .dd-footer-txt, .dd-log-in{
 			text-align:left;
