@@ -12,21 +12,22 @@
 				</div>
 				<div class="dd-footer-txt dd-footer-txt2">
 					<ul>
-						<li><a href="#">Что такое КаргоКод?</a></li>
-						<li><a href="#">Кому нужен КаргоКод</a></li>
+						<li><a href="#">Главное</a></li>
+						<li><a href="#">Поброр кода</a></li>
+						<li><a href="#">История запросов</a></li>
 					</ul>
 				</div>
 				<div class="dd-footer-txt">
 					<ul>
-						<li><a href="#">Возможности</a></li>
-						<li><a href="#">Стоимость</a></li>
+						<li><a href="#">Отслеживание кодов</a></li>
+						<li><a href="#">Обработка Exel</a></li>
 					</ul>
 				</div>
 			</div>	
 			<div class="col-md-4">
-				<div class="dd-log-in">
-					<a href="#">Регистрация</a>
-					<a href="#">Личный кабинет</a>
+				<div class="dd-log-in de-log-in">
+					<a href="#">Профиль</a>
+					<a href="#">Выйти</a>
 				</div>
 			</div>
 			<div class="clearfix"></div>

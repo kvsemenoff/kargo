@@ -181,11 +181,18 @@ $tdu : underline;
 }
 
 // #2.1 header 
-.de-main-menu-userprofile1{
-	background-color: #FF6565;
-	background-color: #FF6565;
+.de-header-processing{
+	// background-color: #FF6565; 
+	min-height: 15%; 
+    margin-bottom: 1px; 
+    width: 100%; 
 }
 // #2.2 footer
+.dd-footer{
+	.de-log-in{
+		width: 221px !important;
+	}	
+}
 
 @media only screen and (min-width : 320px) {
 	.de-confirm_by_sms{
