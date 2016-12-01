@@ -22,12 +22,33 @@ $tdu : underline;
 			text-decoration: $tdu;
 		}
 	}
-	.caption2,.line3{
+	.caption2{
 		font-size: 16px;
+		font-size: 16px;
+		margin-top: 32px;
+		display: block;
+		margin-left: 12px;
+	}
+	.line3{
+		font-size: 16px;
+		margin-top: 15px;
+		// margin-right: 60px;
+		.txt{
+			// margin-left: 3px;
+
+		}
+		.inpcl2{
+			border-radius: 9px;
+			padding-left: 18px;
+			// margin-left: 18px;
+		}
 	}
 	.line4{
 		font-size: 12px;
 		
+		margin-top: 17px;
+		// margin-left: -26px;
+
 		text-decoration: $tdu;
 		.cpt{
 			a{
@@ -37,15 +58,43 @@ $tdu : underline;
 	}
 	a.registration{
 		font-size: 18px;
-		text-decoration: $tdu;
+		text-decoration: underline;
+		margin-top: 19px;
+		padding: 15px 20px 9px 20px;
 	}
 }
 
 
 @media only screen and (min-width : 320px) {
+	.de-confirm_by_sms{
+		a.registration{
+			padding: 15px 30px 9px 30px;
+		}
+		.line4{
+			.cpt{
+				margin-left: -27px;
+			}
+		}
+	}
 }
 
 @media only screen and (min-width : 480px) {
+	.de-confirm_by_sms{
+		a.registration{
+			padding: 15px 80px 9px 63px;
+		}
+		.line3{
+			span{
+				margin-left: -18px;
+			}
+			.inpcl2{
+				border-radius: 9px;
+				padding-left: 10px;
+				width: 201px;
+				margin-left: 11px;
+			}
+		}
+	}
 }
 
 @media only screen and (min-width : 768px) {
@@ -60,7 +109,7 @@ $tdu : underline;
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
 }
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
-  
+
 }
 .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
 }
