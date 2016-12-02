@@ -6,21 +6,21 @@
 		<div class="ldh1">
 			<div class="ld1">
 				<span class="label11">Логин:</span>			
-				<input class="input-class de-input-reg input11" type="text" value="testuser">
+				<input class="input-class de-input-reg input11" type="text" value="" placeholder="">
 			</div>
 			<div class="ld2">
 				<span class="label12">Пароль</span>
-				<input class="input-class de-input-reg input12" type="password" value="testuser@testuser.com">
+				<input class="input-class de-input-reg input12" type="password" value="" placeholder="">
 			</div>
 		</div>
 		<div class="ldh2">
 			<div class="ld3">
 				<span class="label13">E-Mail:</span>
-				<input class="input-class de-input-reg input13" type="text" value="+79261234567">
+				<input class="input-class de-input-reg input13" type="text" value="" placeholder="">
 			</div>
 			<div class="ld4">
 				<span class="label14">Телефон:</span>
-				<input class="input-class de-input-reg input14" type="text" value="+79261234567">
+				<input class="input-class de-input-reg input14" type="text" value="" placeholder="">
 			</div>
 		</div>
 		<div class="ldh3">
