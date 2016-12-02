@@ -8,6 +8,11 @@
 
 $tdu : underline;
 
+.de-footer{
+	position: relative;
+	bottom: 0; 
+}
+
 .de-confirm_by_sms{
 	border-radius: 10px; 
 	font-family: 'TondoCorp'; 
@@ -199,7 +204,8 @@ $tdu : underline;
 		margin: 30px auto 30px; 
 		padding-top: 10px;
 		padding-bottom: 10px; 
-		
+		color: #fff;
+
 		position: relative;
 		.de-img-kargo{
 			height: 57px;
@@ -241,7 +247,7 @@ $tdu : underline;
 
 		// end of ldh1
 	}
-	
+
 	.ldh2{
 		margin-top: 10px;
 		display: table;
@@ -361,24 +367,24 @@ $tdu : underline;
 				}
 
 				.de-input-reg{
-					
+
 				}
 			}
 
 
 		// end of ldh1
 	}
-	
+
 	.ldh2{
-		
+
 		.ld3{
-			
+
 			.label13{
 				margin-left: 10px;
 			}
 
 			.de-input-reg{
-				
+
 			}
 		}
 		.ld4{
@@ -394,17 +400,17 @@ $tdu : underline;
 	}
 
 	.ldh3{
-		
+
 		.ldi1{
-			
+
 		}
 		.ldi2{
-			
-			
+
+
 		}
 	}
 	.ld6{
-		
+
 	}
 }
 }
@@ -518,12 +524,12 @@ $tdu : underline;
 		width: 826px;
 		margin: 0 auto; 
 		margin-top: 70px;
-		margin-bottom: 50px;
+		margin-bottom: 150px;
 	}
 
 	// 
 	.userprofile{
-		margin: 0 auto; 
+		margin: 0 auto 150px; 
 		width: 830px;
 		$inp_width : 200px; 
 		.up-form2{
@@ -577,14 +583,14 @@ $tdu : underline;
 					}
 
 					.de-input-reg{
-						
+
 					}
 				}
 
 
 			// end of ldh1
 		}
-		
+
 		.ldh2{
 				// outline: 3px solid blue; 	
 				margin: 41px auto 30px;				
@@ -627,7 +633,7 @@ $tdu : underline;
 					}
 
 					.de-input-reg{
-						
+
 					}
 				}
 			// end of ldh2
