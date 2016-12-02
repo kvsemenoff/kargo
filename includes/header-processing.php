@@ -51,7 +51,7 @@
 		</div>
 	</div>
 </section>
-<div class="proof"></div>
+<div class="proof2"></div>
 
 
 <div class="anz-menu">
