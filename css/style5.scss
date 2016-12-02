@@ -2,6 +2,24 @@
 	clear: both;
 }
 
+//используется для прижатия футера к низу браузера
+.df-minheight{
+	min-height: 350px !important;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.df-for-footer {
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+* html .df-for-footer {
+    height: 100%;
+}
+//=========================
+
 //				TIME-KARGOPHP
 .df-timekargo{
 	//display: table;
@@ -458,9 +476,9 @@
 
 // PASSWORD-CHANGE
 
-.df-password-change{
+.df-password-change{	
 	font-family: TondoCorp;
-	margin-bottom: 170px;
+	//margin-bottom: 170px;
 	margin-top: 40px;
 		.df-caption-top{
 			font-size: 16px; color:#373737;
@@ -519,9 +537,6 @@
 }
 
 //header 2 min -height 
-.df-minheight{
-	min-height: 350px !important;
-}
 
 @media only screen and (min-width : 320px) {
 }
