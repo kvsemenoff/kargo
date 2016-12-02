@@ -1,4 +1,4 @@
-<section class="dd-header-processing">
+<section class="dd-header-processing df-minheight">
 	<div class="main-container">
 		<div class="dd-logo">
 			<a href="#"><img src="img/proc-logo.png"></a>
@@ -25,8 +25,6 @@
 		<div class="clearfix"></div>
 	</div>
 </section>
-
-
 
 <div class="anz-menu">
 	    <input type="checkbox" id="check_1" class=""/>
