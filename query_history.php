@@ -32,8 +32,7 @@
 	<script src="js/jquery.maskedinput.min.js"></script>
 	<script src="js/common.js"></script>
 
-	<?php require_once('includes/header2.php'); ?>
-	<!-- История запросов -->
+	
 	<?php require_once('includes/query_history.php'); ?>
 		
 	<?php require_once('includes/footer.php'); ?>
