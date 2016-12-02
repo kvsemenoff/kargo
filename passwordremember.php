@@ -53,6 +53,25 @@
 	</div>
 </section>
 
+<section>
+	<div class="container">
+		<div class="dd-remember-wrap">
+			<span>Восстановить пароль</span>
+			<span>Для восстановления пароля укажите свой E-Mail. На указанную почту будет выслано письмо.</span>
+			<div class="dd-forma">
+				<form>
+					<div class="dd-table">
+						<span>Укажите email:</span>
+						<input class="input-class" type="text" name="">
+					</div>
+					<div class="dd-r-but">
+						<a class="button1" href="#">Восстановить пароль</a>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</section>
 
 
 <div class="anz-menu">
@@ -71,14 +90,7 @@
 	    </div>
 	</div>
 </div>
-
-
-	<!-- Вспомнить пароль -->
-	<?php require_once('includes/passwordremember.php'); ?>
-
 	<?php require_once('includes/footer.php'); ?>
-
-	
 </body>
 </html>
 
