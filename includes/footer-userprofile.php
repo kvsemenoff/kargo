@@ -1,4 +1,4 @@
-<section class="dd-footer">
+<section class="dd-footer de-footer">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8">

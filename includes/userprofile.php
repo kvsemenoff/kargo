@@ -7,15 +7,15 @@
 	<div class="up-form">
 		<div class="ln1">
 			<span class="label1">Логин:</span>
-			<input class="input-class btn-for-label1" type="text" value="testuser">
+			<input class="input-class btn-for-label1" type="text" value="" placeholder="testuser">
 		</div>
 		<div class="ln2">
 			<span class="label2">E-Mail:</span>
-			<input class="input-class btn-for-label2" type="text" value="testuser@testuser.com">
+			<input class="input-class btn-for-label2" type="text" value="" placeholder="testuser@testuser.com">
 		</div>
 		<div class="ln3">
 			<span class="label3">Телефон:</span>
-			<input class="input-class btn-for-label3" type="text" value="+79261234567">
+			<input class="input-class btn-for-label3" type="text" value="" placeholder="+79261234567">
 		</div>
 		<div class="ln4">
 			<span class="label4">Пароль:</span>

@@ -2,6 +2,24 @@
 	clear: both;
 }
 
+//используется для прижатия футера к низу браузера
+.df-minheight{
+	min-height: 350px !important;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.df-for-footer {
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+* html .df-for-footer {
+    height: 100%;
+}
+//=========================
+
 //				TIME-KARGOPHP
 .df-timekargo{
 	//display: table;
@@ -220,7 +238,7 @@
 	.df-table{
 		.df-topcaption{
 			height: 38px;
-			background: #dd3c3c;			
+			background: #FF3939;			
 			td{
 				font-size: 14px; color:#ffffff;font-family: TondoCorp;
 				text-decoration: underline;
@@ -330,7 +348,7 @@
 		margin-left: 19px;
 	}
 	.df-search{
-		background: #dd3c3c;		
+		background: #FF3939;	
 		margin: 0 auto;
 		text-align: center;//<<<<
 		//padding:20px 0 18px 37px;
@@ -410,7 +428,7 @@
 
 // who need cargo
 .df-bg-color{
-	background: #dd3c3c;
+	background:  #FF3939;	
 	.df-who-need{
 		margin: 0 auto;
 		text-align: center;
@@ -458,9 +476,9 @@
 
 // PASSWORD-CHANGE
 
-.df-password-change{
+.df-password-change{	
 	font-family: TondoCorp;
-	margin-bottom: 170px;
+	//margin-bottom: 170px;
 	margin-top: 40px;
 		.df-caption-top{
 			font-size: 16px; color:#373737;
@@ -471,7 +489,7 @@
 			}
 		}
 		.df-bg-color{
-			background: #dd3c3c;		
+			background:  #FF3939;	
 			border-radius: 10px;
 			padding: 26px 15px;//0
 			text-align: center;
@@ -519,9 +537,6 @@
 }
 
 //header 2 min -height 
-.df-minheight{
-	min-height: 350px !important;
-}
 
 @media only screen and (min-width : 320px) {
 }

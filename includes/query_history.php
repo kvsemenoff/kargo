@@ -48,7 +48,7 @@
 	    </div>
 	</div>
 </div>
-
+<div class="df-for-footer">
 <div class="my-container">	
 	<div class="df-history">
 		<div class="df-toptext">
@@ -156,3 +156,5 @@
 		<div class="clear"></div>
 	</div>	
 </div>
+</div>
+<div class="proof"></div>

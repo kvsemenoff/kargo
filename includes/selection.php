@@ -49,10 +49,7 @@
 	</div>
 </div>
 
-
-
-
-
+<div class="df-for-footer">
 <div class="my-container">
 	<div class="df-selection">
 		<div class="df-caption">
@@ -128,3 +125,5 @@
 		</div>
 	</div>	
 </div>
+</div>
+<div class="proof"></div>
