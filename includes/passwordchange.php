@@ -61,9 +61,6 @@
 </div>
 <div class="proof"></div>
 
-
-
-
 <div class="anz-menu">
 	    <input type="checkbox" id="check_1" class=""/>
 	    <label class="anz-menu-ch hidden-lg hidden-md" for="check_1"><i class="fa fa-bars" aria-hidden="true"></i><img src="img/menu-ico.png"></label>
