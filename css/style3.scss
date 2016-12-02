@@ -8,6 +8,11 @@
 
 $tdu : underline;
 
+.de-footer{
+	position: relative;
+	bottom: 0; 
+}
+
 .de-confirm_by_sms{
 	border-radius: 10px; 
 	font-family: 'TondoCorp'; 
