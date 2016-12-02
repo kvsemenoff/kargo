@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Главная</title>
+	<title>Подтверждение по СМС</title>
 
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
 	<!-- <link href="//netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet"> -->
@@ -70,10 +70,74 @@
 	</div>
 
 
-	<!-- Подтверждение по СМС -->
-	<?php require_once('includes/confirmationsms.php'); ?>
+	<div class="df-for-footer">
+		<div class="de-confirm_by_sms ">
+			<div class="line1">
+				<span class="caption">
+					Подтверждение по СМС
+				</span>
+			</div>	
+			<span class="caption2">
+				На указанный Вами телефон +79261234567 выслан код для подтверждения.
+			</span>
+			<div class="line3">
+				<span class="txt">Введите код из SMS</span>
+				<input class="input-class inpcl2" type="text" value="">
+				<div class="clearfix"></div>
+			</div>
+			<div class="line4">
+				<span class="cpt"><a href="#">Выслать код повторно</a></span>
+			</div>
+			<a href="" class="button1 registration">Зарегистрироваться</a>
+		</div>
+	</div>	
+	<div class="proof"></div>
 
-	<?php require_once('includes/footer.php'); ?>
+	
+
+
+	<section class="dd-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="footer-logo">
+						<div class="dd-img">
+							<img src="img/foot-l.png">
+						</div>
+						<div class="dd-logo-txt">
+							<span>Быстрый подбор кода <span>Тн Вэд Еаэс</span></span>
+						</div>
+					</div>
+					<div class="dd-footer-txt dd-footer-txt2">
+						<ul>
+							<li><a href="#">Что такое КаргоКод?</a></li>
+							<li><a href="#">Кому нужен КаргоКод</a></li>
+						</ul>
+					</div>
+					<div class="dd-footer-txt">
+						<ul>
+							<li><a href="#">Возможности</a></li>
+							<li><a href="#">Стоимость</a></li>
+						</ul>
+					</div>
+				</div>	
+				<div class="col-md-4">
+					<div class="dd-log-in">
+						<a href="#">Регистрация</a>
+						<a href="#">Личный кабинет</a>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+				<div class="col-md-12">
+					<div class="dd-oferta">
+						<a href="#">Договор-оферта</a>
+						<a href="#">Обратная связь</a>
+					</div>
+				</div>
+				<div class="clearfix"></div>			
+			</div>
+		</div>
+	</section>
 
 	
 </body>

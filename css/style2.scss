@@ -44,6 +44,7 @@
 }
 
 .db-howmany{
+	
 	font-family:TondoCorp;
 	background-color:#dd3c3c;
 	.db-all{
@@ -68,6 +69,7 @@
 				box-shadow: 7px 5px 10px #575555;
 			}
 	}
+	
 	.db-check_box-one{
 		float:left;
 		padding:16px 0;
@@ -184,51 +186,76 @@
 
 @media only screen and (min-width : 992px) {
 	.db-capability{
+		padding:3px 0 30px 0;
 		text-align:left;
 		font-size:24px;
-		
+		h2{
+			padding-top:10px;
+		}
 		.db-capability-inner_left{
 			float:left;
 		}
 		.db-capability-inner_right{
 			float:left;
+			padding-left:25px;
 		}
 		.db-capability-inner{
 			margin:0 auto;
 			width:700px;
+			padding-top:20px;
 		}
 		h2{
 			margin-left:389px;
 		}
 	}
+	.db-whatcancargo{
+		padding:20px 0 14px 0;
+		.db-text_box{
+			display:inline-block;
+			padding:10px;
+		}
+		.db-box-margin_left{
+			padding-left:37px;
+		}
+		.db-box-margin_left2{
+			padding-left:37px;
+		}
+		.db-box-margin_left3{
+			padding-left:98px;
+		}
+		.db-box{
+		padding-top:56px;
+		}
+	}
 	.db-howmany{
+		
 		.db-box-all_days{
 		width:268px !important;
 		
 		}
-		.db-check_box_2{
-		padding-top:20px !important;
-		
-		}
-		.db-check_box{
-			
-		}
 		.db-check_box-two{
 			text-align:left;
-			width:85%;
+			padding:16px 0 0 20px;
+			
 		}
+		
 		.db-all_days{
 			border-right:3px solid #b7b6b6;
 			height:63px;
+			line-height:40px;
 		}
 		.db-all_money{
 			border-bottom:none !important;
 			border-right:3px solid #b7b6b6;
 			height:63px;
+			line-height:40px;
 		}
 		.db-check_box-one{
-			padding: 10px;
-			width:15%;
+			padding-left:69px;
+			padding-top:13px;
+		}
+		.db-check_box_2{
+			padding-top:9px;
 		}
 		.db-check_box-one{
 			img{
@@ -237,11 +264,9 @@
 				
 			}
 		}
-		.db-check_box-two{
-			padding:12px;
-		}
 		hr{
 			margin-top:0px;
+			margin-bottom:0px;
 		}
 		
 	}

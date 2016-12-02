@@ -3,7 +3,7 @@
 		<div class="row">
 			<h2>Что умеет КаргоКод?</h2>
 			<div class="col-md-3">
-				<div class="db-box">
+				<div class="db-box db-box-margin_left3">
 					<div class="db-img_box">
 						<img src="img/db-search.png" alt="search"> 
 					</div>
@@ -13,7 +13,7 @@
 				</div>
 			</div>
 			<div class="col-md-3">
-				<div class="db-box">	
+				<div class="db-box db-box-margin_left2">	
 					<div class="db-img_box">
 						<img src="img/db-money.png" alt="money"> 
 					</div>
@@ -23,7 +23,7 @@
 				</div>
 			</div>
 			<div class="col-md-3">
-				<div class="db-box">	
+				<div class="db-box db-box-margin_left">	
 					<div class="db-img_box">
 						<img src="img/db-notepad.png" alt="notepad"> 
 					</div>
