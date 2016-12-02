@@ -8,6 +8,13 @@
 
 $tdu : underline;
 
+@media only screen and (min-width : 1280px) {
+	.main-container{
+		width: 1280px;
+		margin: 0 auto;   
+	}
+}
+
 .de-footer{
 
 }
