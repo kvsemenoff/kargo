@@ -32,7 +32,7 @@
 	<script src="js/jquery.maskedinput.min.js"></script>
 	<script src="js/common.js"></script>
 		
-	<section class="dd-header dd-header-pass-remember">
+<section class="dd-header dd-header-pass-remember">
 	<div class="main-container">
 		<div class="dd-logo">
 			<a href="#"><img src="img/proc-logo.png"></a>
@@ -53,6 +53,10 @@
 	</div>
 </section>
 
+
+
+
+<div class="df-for-footer">
 <section>
 	<div class="container">
 		<div class="dd-remember-wrap">
@@ -72,6 +76,8 @@
 		</div>
 	</div>
 </section>
+</div>
+<div class="proof"></div>
 
 
 <div class="anz-menu">
