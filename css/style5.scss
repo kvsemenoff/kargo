@@ -32,7 +32,7 @@
 		span{
 			font-size: 16px;font-family: "tondo";
 			border-bottom: 1px solid red;
-			height: 89px;//94
+			height: 89.5px;//94
 			display: block;//
 			line-height: 16px;
 			font-family: TondoCorp;			
@@ -403,6 +403,47 @@
 	}
 }
 
+
+// who need cargo
+.df-bg-color{
+	background: #dd3c3c;
+	.df-who-need{
+		margin: 0 auto;
+		text-align: center;
+		h2{
+			color:#fff;
+			margin: 20px 0 35px 0;
+		}
+		.df-blocks-one{
+			display: inline-block;
+			text-align: center;
+			margin: 0 auto;
+			margin-right: 45px;
+			span{
+				color:#fff;
+				font-size: 19px;
+				font-family: TondoCorp;
+				display: inline-block;
+				margin-bottom: 10px;
+			}			
+			.df-imgbox{
+				box-shadow:  0 0 4px 1px white;
+				margin-bottom: 12px;
+				img{
+					width: 100%;
+					height: auto;
+				}
+			}
+			.button1{
+				margin-bottom: 20px;
+			}
+		}
+		.df-blocks-one:last-child{
+			margin-right: 0px;
+		}
+	}
+}
+
 @media only screen and (min-width : 320px) {
 }
 
@@ -505,7 +546,6 @@
 	}
 
 }
-
 
 
 

@@ -31,12 +31,12 @@
 	<script src="js/responsiveTabs.js"></script>
 	<script src="js/jquery.maskedinput.min.js"></script>
 	<script src="js/common.js"></script>
-
-	<?php require_once('includes/header.php'); ?>
+		
+	<?php require_once('includes/header-userprofile.php'); ?>
 	<!-- Профиль пользователя -->
 	<?php require_once('includes/userprofile.php'); ?>
 
-	<?php require_once('includes/footer.php'); ?>
+	<?php require_once('includes/footer-userprofile.php'); ?>
 
 	
 </body>

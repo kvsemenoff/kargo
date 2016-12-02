@@ -32,8 +32,7 @@
 	<script src="js/jquery.maskedinput.min.js"></script>
 	<script src="js/common.js"></script>
 
-	<?php require_once('includes/header.php'); ?>
-	<!-- Подбор -->
+	
 	<?php require_once('includes/selection.php'); ?>
 
 	<?php require_once('includes/footer.php'); ?>
