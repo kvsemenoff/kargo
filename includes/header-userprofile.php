@@ -42,28 +42,3 @@
 		</div>
 	</div>
 </div>
-
-<!-- <section class="dd-header dd-header-pass-remember ">
-	<div class="main-container">
-		<div class="dd-logo">
-			<a href="#"><img src="img/proc-logo.png"></a>
-		</div>
-		<div class="dd-main-menu de-main-menu-userprofile hidden-xs hidden-sm">
-			<ul>
-				<li><a href="#">Главная</a></li>
-				<li><a href="#">Подбор кода</a></li>
-				<li><a href="#">История запросов</a></li>
-				<li><a href="#">Отслеживание кодов</a></li>
-				<li><a href="#">Обработка Exel</a></li>
-			</ul>
-		</div>
-		<div class="dd-log-in">
-			<a href="#">Профиль</a>
-			<a href="#">Выйти</a>
-		</div>
-		<div class="clearfix"></div>
-	</div>
-</section>
-
-
- -->
