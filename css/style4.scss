@@ -607,7 +607,7 @@ h2{
 
 	.dd-remember-wrap{
 		width: 828px;
-		margin:192px auto;
+		margin:192px auto 0px;
 		.dd-forma{
 			span{
 				padding-bottom: 10px;
@@ -731,6 +731,9 @@ h2{
 			}
 		}
 		.proof{
+			height: 14px;
+		}
+		.proof2{
 			height: 50px;
 		}
 		.dd-footer{
@@ -770,3 +773,9 @@ h2{
 		}
 	}
 }
+@media only screen and (min-width : 1280px) {
+	.main-container{
+			width: 1260px;
+			margin: 0 auto;			
+	}
+}	
