@@ -30,7 +30,7 @@
 
 	<script src="js/responsiveTabs.js"></script>
 	<script src="js/jquery.maskedinput.min.js"></script>
-	<script src="js/common.js"></script>
+	<script src="js/common.js"></script>	
 
 	<section class="dd-header dd-header-pass-remember">
 		<div class="main-container">
@@ -69,8 +69,6 @@
 		</div>
 	</div>
 
-
-	<div class="df-for-footer">
 		<div class="de-confirm_by_sms ">
 			<div class="line1">
 				<span class="caption">
@@ -89,14 +87,12 @@
 				<span class="cpt"><a href="#">Выслать код повторно</a></span>
 			</div>
 			<a href="" class="button1 registration">Зарегистрироваться</a>
-		</div>
-	</div>	
-	<div class="proof"></div>
-
-	
+		</div>	
+	<!-- <div class="proof"></div> -->
 
 
-	<section class="dd-footer">
+
+	<section class="dd-footer de-footer">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8">
