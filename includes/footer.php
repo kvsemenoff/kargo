@@ -1,4 +1,4 @@
-<section class="dd-footer">
+<section class="dd-footer df-footer2">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8">
