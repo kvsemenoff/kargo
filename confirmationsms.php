@@ -70,7 +70,7 @@
 			</div>
 		</div>
 
-		
+
 		
 		<div class="de-confirm_by_sms">
 			<div class="line1">
@@ -92,7 +92,7 @@
 			<a href="" class="button1 registration">Зарегистрироваться</a>
 		</div>	
 	</div>
-	<div class="proof"></div>
+	<div class="prof1"></div>
 
 	<section class="dd-footer de-footer">
 		<div class="container">

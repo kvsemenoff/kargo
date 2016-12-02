@@ -8,17 +8,19 @@
 
 $tdu : underline;
 
-
-@media only screen and (min-width : 1280px) {
-	.main-container{
-		width: 1280px;
-		margin: 0 auto;   
-	}
+.prof1{
+	height: 200px;
+}
+.prof2{
+	height: 200px;	
+}
+.prof3{
+	height: 200px;	
 }
 
-.de-footer{
-
-}
+////////////////////////////// 
+////////////////////////////// 
+////////////////////////////// 
 
 .de-confirm_by_sms{
 	border-radius: 10px; 
@@ -314,6 +316,15 @@ $tdu : underline;
 	}
 }
 
+////
+// for footer 
+.proof1{
+	height: 200px; 
+}
+
+.proof2{
+	height: 200px; 
+}
 
 @media only screen and (min-width : 285px) {
 
@@ -674,12 +685,23 @@ $tdu : underline;
 
 @media only screen and (min-width : 992px) {
 	//
+	.proof2{
+		// height: 900px;
+	}
 	.de-confirm_by_sms{
 		width: 826px;		
 	}
 }
 
 @media only screen and (min-width : 1248px) {
+}
+
+@media only screen and (min-width : 1280px) {	
+	
+	.main-container{
+		width: 1280px;
+		margin: 0 auto;   
+	}
 }
 
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
