@@ -31,7 +31,7 @@
 	<script src="js/responsiveTabs.js"></script>
 	<script src="js/jquery.maskedinput.min.js"></script>
 	<script src="js/common.js"></script>
-		
+	<div class="df-for-footer">	
 	<section class="dd-header dd-header-pass-remember">
 	<div class="main-container">
 		<div class="dd-logo">
@@ -84,7 +84,8 @@
 	</div>
 </section>
 
-
+</div>
+<div class="proof"></div>
 <div class="anz-menu">
 	    <input type="checkbox" id="check_1" class=""/>
 	    <label class="anz-menu-ch hidden-lg hidden-md" for="check_1"><i class="fa fa-bars" aria-hidden="true"></i><img src="img/menu-ico.png"></label>
