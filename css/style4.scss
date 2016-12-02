@@ -473,7 +473,7 @@ h2{
     height: 100%;
 }
 .proof{
-	height: 50px;
+	height: 300px;
 }
 .dd-log-info{ 
 	width: 360px;
@@ -546,18 +546,17 @@ h2{
 				font-size:15px;
 				text-transform:unset;
 				padding: 13px 40px;
-				// padding: 13px 77px;
-				// font-size: 20px !important;
 			}
 			.dd-button2{
 				text-transform: uppercase;
 			}
+			.dd-button3{
+				padding: 13px 28px;
+			}
 			.dd-chek-autorization{
-				// width: 270px;
 				display: inline-block;
 				text-align: center;
-				// margin: 0 auto;
-				outline: 1px solid #fff;
+				margin-top:10px; 		
 				.dd-chek-lable{
 					display: table;
 					.chekbox{
@@ -571,7 +570,9 @@ h2{
 						font-size: 14px;
 						cursor:pointer;
 					}
-					.dd-rem-the-pass-but{
+				}
+				.dd-rem-the-pass-but{
+					a{
 						color: white;
 						font-family: "TondoCorp";
 						font-size: 14px;
@@ -606,8 +607,7 @@ h2{
 
 	.dd-remember-wrap{
 		width: 828px;
-		margin:243px auto 142px;
-		// margin:245px auto 292px;;
+		margin:192px auto;
 		.dd-forma{
 			span{
 				padding-bottom: 10px;
@@ -620,6 +620,7 @@ h2{
 						display: table-cell;
 					}
 					input{
+						width: 199px;
 						display: table-cell;
 						margin-left: 10px;
 					}
@@ -632,112 +633,132 @@ h2{
 					font-size:18px;
 					padding: 13px 77px;
 				}
+				.dd-button3{
+					padding: 13px 52px;
+					margin-top: 17px;
+				}
+			.dd-chek-autorization{
+				margin-top: 23px;
+				.dd-chek-lable{
+					float:left;
+				}
+				.dd-rem-the-pass-but{
+					float:left;
+					padding-left: 24px;
+				}
 			}
-		}	
+		}
+	}
 }
+	.dd-autoriz{
+		margin:186px auto !important;
+	}	
 
 	.dd-header{ 
 		padding-top:0px;
 		.main-container{
 			.dd-logo{
-				// width: 284px;
-				text-align:left;
-				float:left;
-			}
-			.dd-main-menu{
-				float:left;
-			}
-			.dd-log-in{
-				float:right;
-			}
-			.dd-slogan{
-				margin-top:110px;
-				span{
-					font-size:60px;
+					// width: 284px;
+					text-align:left;
+					float:left;
+				}
+				.dd-main-menu{
+					float:left;
+				}
+				.dd-log-in{
+					float:right;
+				}
+				.dd-slogan{
+					margin-top:110px;
+					span{
+						font-size:60px;
+					}
 				}
 			}
 		}
-	}
-	.dd-header-processing{
-		padding-top:0px;
-		.main-container{
-			.dd-logo{
-				width: 284px;
-				text-align:left;
-				float:left;
-			}
-			.dd-main-menu{
-				float:left;
-			}
-			.dd-log-in{
-				float:right;
-			}
-			.dd-slogan{
-				margin-top:110px;
-				span{
-					font-size:60px;
+		.dd-header-processing{
+			padding-top:0px;
+			.main-container{
+				.dd-logo{
+					width: 284px;
+					text-align:left;
+					float:left;
 				}
-			}
-			.dd-obrabotka-wrap{
-				.dd-title{
-					padding-bottom:5px; 
+				.dd-main-menu{
+					float:left;
 				}
-				.dd-bg{
-					padding: 19px 53px;
-					.dd-form{
-						display: table;
-						.dd-name{
-							width: 193px;
-							display: table-cell;
-						}
-						.dd-input{
-							display: table-cell;
-							.input-class{
-								width: 372px;
+				.dd-log-in{
+					float:right;
+				}
+				.dd-slogan{
+					margin-top:110px;
+					span{
+						font-size:60px;
+					}
+				}
+				.dd-obrabotka-wrap{
+					.dd-title{
+						padding-bottom:5px; 
+					}
+					.dd-bg{
+						padding: 19px 53px;
+						.dd-form{
+							display: table;
+							.dd-name{
+								width: 193px;
+								display: table-cell;
 							}
-							.dd-submit{
-							top:4px;
-						}
-					}
+							.dd-input{
+								display: table-cell;
+								.input-class{
+									width: 372px;
+								}
+								.dd-submit{
+									top:4px;
+								}
+							}
 
-					.dd-butt{
-						text-align:left;
-						margin-top:0px;
-						a{
-							margin-left:22px;
+							.dd-butt{
+								text-align:left;
+								margin-top:0px;
+								a{
+									margin-left:22px;
+								}
+							}
 						}
 					}
 				}
 			}
 		}
-	}
-}
-	.dd-footer{
-		.footer-logo, .dd-footer-txt, .dd-log-in{
-			text-align:left;
-		} 
-		.footer-logo{
-			width: 288px;
-			float:left;
-			.dd-img{
-				padding-left:10px; 
+		.proof{
+			height: 50px;
+		}
+		.dd-footer{
+			.footer-logo, .dd-footer-txt, .dd-log-in{
+				text-align:left;
+			} 
+			.footer-logo{
+				width: 288px;
+				float:left;
+				.dd-img{
+					padding-left:10px; 
+				}
+			}
+			.dd-footer-txt{
+				float:left;
+			}
+			.dd-footer-txt2{
+				width: 243px;
+			}
+			.dd-log-in{
+				width: 292px;
+				margin-left: 0px;	
+				padding:7px 0px 7px 31px;
+			}
+			.dd-log-in-processing{
+				padding:7px 0px 7px 73px;
 			}
 		}
-		.dd-footer-txt{
-			float:left;
-		}
-		.dd-footer-txt2{
-			width: 243px;
-		}
-		.dd-log-in{
-			width: 292px;
-			margin-left: 0px;	
-			padding:7px 0px 7px 31px;
-		}
-		.dd-log-in-processing{
-			padding:7px 0px 7px 73px;
-		}
-	}
 }
 
 @media only screen and (min-width : 1248px) {

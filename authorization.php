@@ -55,7 +55,7 @@
 
 <section>
 	<div class="container">
-		<div class="dd-remember-wrap">
+		<div class="dd-remember-wrap dd-autoriz">
 			<span>Авторизация пользователя</span>
 			<div class="dd-forma">
 				<form>
@@ -71,9 +71,12 @@
 							<span class="checkbox-custom"></span>
 							<span class="label">Запомнить меня</span>
 						</label>
+						<div class="dd-rem-the-pass-but">
+							<a href="#">Вспомнить пароль</a>
+						</div>
 					</div>
 					<div class="dd-r-but">
-						<a class="button1 dd-button2" href="#">Войти в личный кабинет</a>
+						<a class="button1 dd-button2 dd-button3" href="#">Войти в личный кабинет</a>
 					</div>
 				</form>
 			</div>
