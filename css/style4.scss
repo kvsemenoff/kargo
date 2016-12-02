@@ -1,8 +1,8 @@
-@import "reset.css";
-@import "style.css";
-@import "style2.css";
-@import "style3.css";
-@import "fonts.css";
+// @import "reset.css";
+// @import "style.css";
+// @import "style2.css";
+// @import "style3.css";
+// @import "fonts.css";
 
 html, body {
     height: 100%;
@@ -503,6 +503,86 @@ h2{
 }
 // Конец обработка //////////////
 
+.dd-remember-wrap{
+	background: $red;
+	border-radius:15px;
+	text-align:center;
+	padding: 15px 0px 29px;
+	margin-bottom: 10px;
+	span{
+		display: block;
+	}
+	span:first-child{
+		color: white;
+		font-family: "TondoCorp";
+		font-size: 18px;
+		text-decoration: underline;
+		padding-bottom: 19px;
+	}
+	.dd-pass{
+		color: white;
+		font-family: "TondoCorp";
+		font-size: 18px;
+		text-decoration: unset;
+		padding-bottom: 19px;
+	}
+	.dd-unset{
+		text-decoration: unset !important;
+	}
+	span:nth-child(2){
+		color: white;
+		font-family: "TondoCorp";
+		font-size: 16px;
+		padding-bottom: 15px;
+	}
+	.dd-forma{
+		span{
+				display: block;
+				padding-bottom: 10px;
+			}
+		form{
+			.button1{
+				margin-top: 10px;
+				font-size:15px;
+				text-transform:unset;
+				padding: 13px 40px;
+				// padding: 13px 77px;
+				// font-size: 20px !important;
+			}
+			.dd-button2{
+				text-transform: uppercase;
+			}
+			.dd-chek-autorization{
+				// width: 270px;
+				display: inline-block;
+				text-align: center;
+				// margin: 0 auto;
+				outline: 1px solid #fff;
+				.dd-chek-lable{
+					display: table;
+					.chekbox{
+						display: table-cell;
+					}
+					.label{
+						display: table-cell;
+						padding-left: 10px;
+						color: white;
+						font-family: "TondoCorp";
+						font-size: 14px;
+						cursor:pointer;
+					}
+					.dd-rem-the-pass-but{
+						color: white;
+						font-family: "TondoCorp";
+						font-size: 14px;
+						text-decoration: underline;
+						display: block;
+					}
+				}
+			}
+		}
+	}	
+}
 
 
 
@@ -523,6 +603,38 @@ h2{
 }
 
 @media only screen and (min-width : 992px) {
+
+	.dd-remember-wrap{
+		width: 828px;
+		margin:243px auto 142px;
+		// margin:245px auto 292px;;
+		.dd-forma{
+			span{
+				padding-bottom: 10px;
+			}
+			form{
+				.dd-table{
+					display: table;
+					margin:0 auto;
+					span{
+						display: table-cell;
+					}
+					input{
+						display: table-cell;
+						margin-left: 10px;
+					}
+					.dd-pass{
+						padding-left: 29px;
+					}
+				}
+				.button1{
+					margin-top: 25px;
+					font-size:18px;
+					padding: 13px 77px;
+				}
+			}
+		}	
+}
 
 	.dd-header{ 
 		padding-top:0px;
