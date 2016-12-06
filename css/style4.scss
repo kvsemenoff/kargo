@@ -177,9 +177,7 @@ h2{
         perspective: 500px;
         z-index: 150;
     }
-    .menu-list-pressed{
-        
-    }
+  
     #check_1:checked ~ .anz-perspective{
         transition: all 1s ease-in-out;
         left: 0px;
@@ -209,7 +207,7 @@ h2{
     	li{
     		a{
     			color: #fff;
-    			font-family: TondoCorp;
+    			font-family: "TondoCorp";
     			font-size: 16px;
     		}
 		    a:before{
@@ -496,9 +494,30 @@ h2{
 		text-decoration: underline;
 	}
 }
-.dd-log-info2{
+.dd-log-info2{ 
+	// width: 360px;
+	// padding-left:10px;
+	// outline:1px solid #fff;
+	
 	span{
-		// display: block;
+
+		font-family:"TondoCorp";
+		font-size: 20px;
+		color: #373737;
+		display: inline-block;
+		height: 30px;
+		margin-top:-20px; 
+		span{
+			// color: #2b7a04;
+			color:#fff;
+		}
+	}
+	a{
+		font-family:"TondoCorp";
+		font-size: 14px;
+		// color: #373737;
+		color:#fff;
+		text-decoration: underline;
 	}
 }
 // Конец обработка //////////////
@@ -507,7 +526,7 @@ h2{
 	background: $red;
 	border-radius:15px;
 	text-align:center;
-	padding: 15px 0px 29px;
+	padding: 15px 16px 29px;
 	margin-bottom: 10px;
 	span{
 		display: block;
@@ -584,7 +603,9 @@ h2{
 		}
 	}	
 }
-
+.proof2{
+	height:150px;
+}
 
 
 
@@ -607,6 +628,7 @@ h2{
 
 	.dd-remember-wrap{
 		width: 828px;
+		padding: 15px 0 29px;
 		margin:192px auto 0px;
 		.dd-forma{
 			span{
