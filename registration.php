@@ -123,7 +123,7 @@
 	</div>
 
 
-	<div class="proof"></div>
+	<div class="prof3"></div>
 
 	<section class="dd-footer">
 		<div class="container">

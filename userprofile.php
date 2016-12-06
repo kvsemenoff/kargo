@@ -34,7 +34,7 @@
 
 	
 	<div class="df-for-footer">
-		
+
 		<section class="dd-header-processing de-header-processing">
 			<div class="main-container">
 				<div class="dd-logo">
@@ -121,7 +121,7 @@
 		</div>
 	</div>
 	
-	<div class="proof"></div>
+	<div class="prof2"></div>
 
 	<section class="dd-footer de-footer">
 		<div class="container">
