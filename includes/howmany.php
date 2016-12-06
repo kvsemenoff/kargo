@@ -56,15 +56,15 @@
 						</div>
 						<div class="db-all_money db-all_last">
 							<span>12 000 РУБЛЕЙ<span>
+							</div>
 						</div>
+						<div class="clearfix"></div>
 					</div>
-					<div class="clearfix"></div>
+				</div>
+				<div class="db-all-button">
+					<a href="#" class="button1">ПОЛЬЗУЙТЕСЬ БЕСПЛАТНО <br class="hidden-md hidden-mg"> 30 ДНЕЙ</a>
 				</div>
 			</div>
-			<div class="db-all-button">
-					<a href="#" class="button1">ПОЛЬЗУЙТЕСЬ БЕСПЛАТНО 30 ДНЕЙ</a>
-			</div>
+			<div class="clearfix"></div>
 		</div>
-		<div class="clearfix"></div>
-	</div>
-</section>
+	</section>
