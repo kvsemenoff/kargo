@@ -7,16 +7,16 @@
 	min-height: 350px !important;
 }
 html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
+	height: 100%;
+	margin: 0;
+	padding: 0;
 }
 .df-for-footer {
-    min-height: 100%;
-    margin-bottom: -194px;
+	min-height: 100%;
+	margin-bottom: -194px;
 }
 * html .df-for-footer {
-    height: 100%;
+	height: 100%;
 }
 .proof3{
 	height: 250px;
@@ -126,7 +126,7 @@ html, body {
 			width: 30px;
 			height: 30px;
 			left: 13px;
-    		top: 30px;	
+			top: 30px;	
 		}
 	}
 	.df-block3{		
@@ -150,7 +150,7 @@ html, body {
 			width: 30px;
 			height: 30px;
 			left: 13px;
-    		top: 30px;	
+			top: 30px;	
 		}
 		
 	}
@@ -208,22 +208,31 @@ html, body {
 	width: 100%;
 	margin: 0 auto;
 }
+.df-proof{
+	height: 200px;
+}
 .df-history{
+	margin: 20px 0 0 0;
+	padding:  0 15px;
 	.df-toptext{
 		margin-bottom: 7.5px;
-		span{
+		text-align: center;
+		.df-his{
 			font-size: 16px; color:#373737;
-			display: inline-block;
+			//display: inline-block;
 			font-family: TondoCorp;
+			//float: left;
+			display: block;
 		}
 		.df-show-in{
 			display: inline-block;
 			font-family: TondoCorp;
-			float: right;
+			//float: right;
 			span{
 				color:#373737;
 				font-size: 14px;
 				display: inline-block;
+				
 			}
 			a{
 				text-decoration: underline;
@@ -307,6 +316,7 @@ html, body {
 	}
 	.df-bottomtext{
 		margin: 7px 0 185px 0;
+		text-align: center;
 		.df-show-in{
 			display: inline-block;
 			font-family: TondoCorp;
@@ -330,8 +340,8 @@ html, body {
 			}
 		}
 		.df-warning{
-			float: right;
-			display: inline-block;
+			//float: right;
+			display: block;			
 			font-size: 14px; color:#dd3c3c;font-family: TondoCorp;
 			text-decoration: underline;
 		}		
@@ -484,21 +494,21 @@ html, body {
 	font-family: TondoCorp;
 	//margin-bottom: 170px;
 	margin-top: 40px;
-		.df-caption-top{
-			font-size: 16px; color:#373737;
-			text-align: center;
-			margin-bottom: 9px;
-			span{
-				color:#2b7a04;
-			}
+	.df-caption-top{
+		font-size: 16px; color:#373737;
+		text-align: center;
+		margin-bottom: 9px;
+		span{
+			color:#2b7a04;
 		}
-		.df-bg-color{
-			background:  #FF3939;	
-			border-radius: 10px;
+	}
+	.df-bg-color{
+		background:  #FF3939;	
+		border-radius: 10px;
 			padding: 26px 15px;//0
 			text-align: center;
-			width: 683px;
-			//width: 100%;
+			//width: 683px;
+			
 			margin: 0 auto;		
 			.df-inputs{
 				margin-bottom: 12px;
@@ -519,6 +529,7 @@ html, body {
 					vertical-align: top;
 					padding-bottom: 9px;
 					display:block;
+					
 					margin: 0 auto;
 				}			
 			}
@@ -537,8 +548,8 @@ html, body {
 				}
 			}
 		}
-	
-}
+
+	}
 
 //header 2 min -height 
 
@@ -549,25 +560,29 @@ html, body {
 }
 
 @media only screen and (min-width : 768px) {
+	.df-proof{
+		height: 50px;
+	}
+
 	.df-timekargo{
-	display: table;
-	margin: 0 auto;	
+		display: table;
+		margin: 0 auto;	
 		.df-block1, .df-block2, .df-block3{
 			display:table-cell;
 			float: left;
 			.dfbox{
-			display:table;
-			width: 320px;
-			padding-top: 0px !important;			
-			img{				
-				float: left;
-				margin-top: 17px;				
-			}
-			span{				
-				text-align: left;
-				margin-left: 55px;				
-			}
-		}		
+				display:table;
+				width: 320px;
+				padding-top: 0px !important;			
+				img{				
+					float: left;
+					margin-top: 17px;				
+				}
+				span{				
+					text-align: left;
+					margin-left: 55px;				
+				}
+			}		
 		}
 		.df-block2, .df-block3{
 			display:inline-block;
@@ -600,10 +615,10 @@ html, body {
 		.df-block3{
 			border-right: none;
 			h4{			
-			border:none;
-			position: relative;
-			text-align: left;
-			padding-left: 60px;
+				border:none;
+				position: relative;
+				text-align: left;
+				padding-left: 60px;
 			}
 			h4:after{
 				content: "";
@@ -614,8 +629,8 @@ html, body {
 				bottom:-1px;
 			}			
 			span{			
-			position: relative;
-			border:none;
+				position: relative;
+				border:none;
 			}
 			span:after{
 				content: "";
@@ -630,13 +645,13 @@ html, body {
 	//economy95	
 	.dfmargin{	
 		margin-bottom: 59px;//59
-	.df-economy{	
-		margin-left: 107px;
-		.df-imgbox{			
-			float: left;						
-		}
-		span{			
-			width:75%;			
+		.df-economy{	
+			margin-left: 107px;
+			.df-imgbox{			
+				float: left;						
+			}
+			span{			
+				width:75%;			
 			margin: 8px 0 0px 17px;//
 			text-align: left;			
 		}	
@@ -645,7 +660,35 @@ html, body {
 		margin-left: 20px;		
 		text-align: center;		
 	}
+}
+
+// history zapros)
+
+.df-history{	
+	
+	.df-toptext{
+		margin-bottom: 7.5px;
+		.df-his{
+			font-size: 16px; color:#373737;
+			display: inline-block;
+			font-family: TondoCorp;
+			float: left;			
+		}
+		.df-show-in{
+			display: inline-block;
+			font-family: TondoCorp;
+			float: right;
+		}		
+	}	
+	.df-bottomtext{
+		text-align: left !important;		
+		.df-warning{
+			float: right !important;
+			display: inline-block !important;				
+		}		
 	}
+}
+
 
 
 	//WHO NEED KARGO
@@ -668,18 +711,20 @@ html, body {
 
 	//PASSWORD CHANGE
 	.df-password-change{
-	.df-caption-top{
-		margin-left: 230px;
-		display: inline-block;
-		text-align: center;
-	}	
-	.df-bg-color{		
-		padding: 26px 0px;//0		
+		display: block;
+		.df-caption-top{
+			margin-left: 230px;
+			display: inline-block;
+			text-align: center;
+		}	
+		.df-bg-color{		
+		padding: 26px 0px;//0
+		width: 683px;		
 		.df-inputs{
 			margin-bottom: 12px;
 			span{				
-			    text-align: right;
-			    display: inline-block;				
+				text-align: right;
+				display: inline-block;				
 			}
 			input{				
 				margin-right: 20px;
@@ -709,7 +754,9 @@ html, body {
 
 @media only screen and (min-width : 992px) {
 	//history zapros)
-
+	.df-history{	
+		padding: 0px;
+	}
 	.df-table{			
 		td:nth-child(1){ min-width: 215px; }
 		td:nth-child(2){ min-width: 172px;}
@@ -724,31 +771,26 @@ html, body {
 	//SELECTIONPHP
 	.df-selection{
 		.df-search{		
-		text-align: left;
-		padding:20px 0 18px 37px;			
-		span{			
-			padding-bottom: 0px;			
+			text-align: left;
+			padding:20px 0 18px 37px;			
+			span{			
+				padding-bottom: 0px;			
+			}
+			input{			
+				margin-bottom: 0px;
+				margin-left: 0px;
+			}
+			.input-class{
+				width: 372px;
+			}
+		}	
+		.df-content{		
+			.df-boxright{			
+				margin-left: 43px;			
+			}
 		}
-		input{			
-			margin-bottom: 0px;
-			margin-left: 0px;
-		}
-		.input-class{
-			width: 372px;
-		}
-		
-		
-	}	
-	.df-content{		
-		.df-boxleft, .df-boxright{			
-			
-		}
-		.df-boxright{			
-			margin-left: 43px;			
-		}
+
 	}
-	
-}
 	
 }
 
@@ -759,7 +801,7 @@ html, body {
     //outline: 5px solid red;
 }
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
-  
+
 }
 .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
 }

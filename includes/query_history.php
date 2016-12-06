@@ -31,7 +31,7 @@
 	<div class="my-container">	
 		<div class="df-history">
 			<div class="df-toptext">
-				<span>История запросов</span>
+				<span class="df-his">История запросов</span>
 				<div class="df-show-in">
 					<span>Выводить по</span> 
 					<a href="#" class="active">10</a>
@@ -139,7 +139,7 @@
 		
 </div>
 </div>
-<div class="proof"></div>
+<div class="proof df-proof"></div>
 
 
 <div class="anz-menu">
