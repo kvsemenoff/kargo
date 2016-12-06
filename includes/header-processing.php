@@ -67,9 +67,9 @@
 	            	<li><a href="#">Отслеживание кодов</a></li>
 	            	<li><a href="#">Обработка Excel</a></li>
 	            </ul>
-	            <div class="dd-log-info dd-log-info2">
-	            	<span>Логин: <span> testuser</span></span></br>
-	            	<span >Остаток: <span> 12 дней</span></span></br>
+	            <div class="dd-log-info2">
+	            	<span>Логин: <span> testuser</span></span>
+	            	<span >Остаток: <span> 12 дней</span></span>
 	            	<a href="#">Продлить КаргоКод</a>
 	            </div>
 	        </div>
