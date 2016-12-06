@@ -25,8 +25,8 @@
 	<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
 
 	<script>
-    	new WOW().init();
-    </script>
+		new WOW().init();
+	</script>
 
 	<script src="js/responsiveTabs.js"></script>
 	<script src="js/jquery.maskedinput.min.js"></script>
