@@ -372,20 +372,21 @@ h2 {
     color: #373737;
     text-decoration: underline; }
 
-.dd-log-info2 span {
-  font-family: "TondoCorp";
-  font-size: 20px;
-  color: #373737;
-  display: inline-block;
-  height: 30px;
-  margin-top: -20px; }
-  .dd-log-info2 span span {
-    color: #fff; }
-.dd-log-info2 a {
-  font-family: "TondoCorp";
-  font-size: 14px;
-  color: #fff;
-  text-decoration: underline; }
+.dd-log-info2 {
+  margin-top: 20px;
+  line-height: 22px; }
+  .dd-log-info2 span {
+    font-family: "TondoCorp";
+    font-size: 18px;
+    color: #373737;
+    display: inline-block; }
+    .dd-log-info2 span span {
+      color: #fff; }
+  .dd-log-info2 a {
+    font-family: "TondoCorp";
+    font-size: 14px;
+    color: #fff;
+    text-decoration: underline; }
 
 .dd-remember-wrap {
   background: #FF3939;
