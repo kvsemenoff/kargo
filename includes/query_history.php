@@ -43,14 +43,14 @@
 			</div>
 			<table class="df-table">
 				<tr class="df-topcaption">
-					<td>Наименование для поиска</td>
-					<td>Дата поиска</td>
+					<td class="hidden-xs">Наименование для поиска</td>
+					<td class="hidden-xs">Дата поиска</td>
 					<td>Код ТН ВЭД и ставка</td>
 					<td>Описание кода</td>
 				</tr>
 				<tr class="df-text-blocks">
-					<td class="df1">ткань хлопчатобумажная</td>
-					<td class="df2">21.11.2016</td>
+					<td class="df1 hidden-xs hidden-xs">ткань хлопчатобумажная</td>
+					<td class="df2 hidden-xs">21.11.2016</td>
 
 					<td class="df3">  
 					<span>Код ТН ВЭД ЕАЭС - <em>7546781713</em></span><br>
@@ -73,8 +73,8 @@
 					</td>
 				</tr>					
 				<tr class="df-text-blocks">
-					<td class="df1">ткань хлопчатобумажная</td>
-					<td class="df2">21.11.2016</td>
+					<td class="df1 hidden-xs">ткань хлопчатобумажная</td>
+					<td class="df2 hidden-xs">21.11.2016</td>
 
 					<td class="df3">  
 					<span>Код ТН ВЭД ЕАЭС - <em>7546781713</em></span><br>
@@ -97,8 +97,8 @@
 					</td>
 				</tr>					
 				<tr class="df-text-blocks">
-					<td class="df1">ткань хлопчатобумажная</td>
-					<td class="df2">21.11.2016</td>
+					<td class="df1 hidden-xs">ткань хлопчатобумажная</td>
+					<td class="df2 hidden-xs">21.11.2016</td>
 
 					<td class="df3">  
 					<span>Код ТН ВЭД ЕАЭС - <em>7546781713</em></span><br>
