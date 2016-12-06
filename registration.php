@@ -79,7 +79,7 @@
 				</div>
 				<div class="ldh1">
 					<div class="ld1">
-						<span class="label11">Логин:</span>			
+						<span class="label11">Логин</span>			
 						<input class="input-class de-input-reg input11" type="text" value="" placeholder="">
 					</div>
 					<div class="ld2">
@@ -89,11 +89,11 @@
 				</div>
 				<div class="ldh2">
 					<div class="ld3">
-						<span class="label13">E-Mail:</span>
+						<span class="label13">E-Mail</span>
 						<input class="input-class de-input-reg input13" type="text" value="" placeholder="">
 					</div>
 					<div class="ld4">
-						<span class="label14">Телефон:</span>
+						<span class="label14">Телефон</span>
 						<input class="input-class de-input-reg input14" type="text" value="" placeholder="">
 					</div>
 				</div>

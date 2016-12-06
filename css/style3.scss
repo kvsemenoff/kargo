@@ -236,21 +236,29 @@ $tdu : underline;
 
 		$ld_inp_width : 120px; 
 		.ldh1{
-			display: table; 
-			margin: 10px auto; 
-			margin-top: 30px; 
-			.ld1{
-				display: table-cell;
+			margin-left:10px;
+			text-align:center;
+			display: block; 
+			padding:35px;
+			margin-bottom:-25px;
+			
 
+			
+			.ld1{
+				display: block;
+				padding-bottom:10px;
+				
 				.de-input-reg{
 					width: $ld_inp_width;
+					margin-left:7px;
 				}
 			}
 			.ld2{
-				display: table-cell;
-
+				display: block;
+				
 				.de-input-reg{
 					width: $ld_inp_width;
+					
 				}
 			}
 
@@ -259,17 +267,21 @@ $tdu : underline;
 	}
 
 	.ldh2{
-		margin-top: 10px;
-		display: table;
-		margin: 10px auto;
+			display: block; 
+			padding:30px;
+			text-align:center;
+
 		.ld3{
-			display: table-cell;
+			display: block;
+			padding-bottom:10px;
+			
 			.de-input-reg{
 				width: $ld_inp_width;
+				margin-left:17px;
 			}
 		}
 		.ld4{
-			display: table-cell;
+			display: block;
 			.de-input-reg{
 				width: $ld_inp_width;
 			}
@@ -278,13 +290,13 @@ $tdu : underline;
 	}
 
 	.ldh3{
-		display: table;
+		display: block;
 		margin: 4px auto 10px; 
 		.ldi1{
-			display: table-cell;
+			display: block;
 		}
 		.ldi2{
-			display: table-cell;
+			display: block;
 			span{
 				a{
 					color:#fff; 
@@ -691,6 +703,13 @@ $tdu : underline;
 	.de-confirm_by_sms{
 		width: 826px;		
 	}
+}
+.ldh1{
+			margin-left:10px;
+			text-align:center;
+			display: block; 
+			padding:35px;
+			margin-bottom:-25px;
 }
 
 @media only screen and (min-width : 1248px) {
