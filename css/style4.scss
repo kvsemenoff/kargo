@@ -4,10 +4,10 @@
 // @import "style3.css";
 // @import "fonts.css";
 
-html, body {
+html, body, .n-wrapper {
 	height: 100%;
-	margin: 0;
-	padding: 0;
+	// margin: 0;
+	// padding: 0;
 }
 // Общие стили ///////////////
 
@@ -20,6 +20,25 @@ $green:#007000;
 h2{
 	font-family: TondoCorp;
 	font-size: 30px;
+}
+.n-header{
+	display:table-row;
+	height: 1px;
+}
+.n-content{
+	display:table-row;
+}
+.n-footer{
+	display:table-row;
+	height: 1px;
+}
+.n-wrapper{
+	width: 100%;
+	display:table;
+}
+.n-content-inner{
+	display:table-cell;
+	vertical-align:middle;
 }
 
 // Кнопка
@@ -702,6 +721,7 @@ h2{
 		}
 		.dd-header-processing{
 			padding-top:0px;
+			// border:10px solid black;
 			.main-container{
 				.dd-logo{
 					width: 284px;

@@ -20,6 +20,10 @@ $tdu : underline;
 .de-proof{
 	height: 190px;
 }
+.main-content-area{
+	outline:10px solid brown;
+	height: 100%;
+}
 ////////////////////////////// 
 ////////////////////////////// 
 ////////////////////////////// 
@@ -86,10 +90,9 @@ $tdu : underline;
 }
 
 // 2 block 
+
+
 .userprofile{
-	margin-top: 10px; 
-	margin-bottom: 76px; 
-	
 	.text{
 		text-align: center;
 	}
@@ -689,17 +692,13 @@ $tdu : underline;
 
 @media only screen and (min-width : 992px) {
 	.de-proof{
-	height: 2px;
-}
-	.demtop{
-		margin-top: 95px;
+		height: 202px;
 	}
-
 	#de-header-processing{	
-	min-height: 80px !important; 
-	margin-bottom: 1px !important; 
-	width: 100%; 
-}
+		min-height: 80px !important; 
+		margin-bottom: 1px !important; 
+		width: 100%; 
+	}
 	//
 	.proof2{
 		// height: 900px;
@@ -711,6 +710,9 @@ $tdu : underline;
 }
 
 @media only screen and (min-width : 1248px) {
+	.de-proof{
+		height: 2px;
+	}
 }
 
 @media only screen and (min-width : 1280px) {	
