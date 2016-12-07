@@ -35,7 +35,7 @@
 	
 	<div class="df-for-footer">
 
-		<section class="dd-header-processing de-header-processing">
+		<section class="dd-header-processing " id="de-header-processing">
 			<div class="main-container">
 				<div class="dd-logo">
 					<a href="#"><img src="img/proc-logo.png"></a>
@@ -81,7 +81,7 @@
 		</div>
 
 
-		<div class="userprofile">
+		<div class="userprofile demtop">
 			<div class="up-caption">
 				<span class="caption">
 					Профиль пользователя <span class="caption_green">testuser</span>
@@ -121,7 +121,7 @@
 		</div>
 	</div>
 	
-	<div class="prof2"></div>
+	<div class="de-proof"></div>
 
 	<section class="dd-footer de-footer">
 		<div class="container">

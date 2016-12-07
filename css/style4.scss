@@ -5,9 +5,9 @@
 // @import "fonts.css";
 
 html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
+	height: 100%;
+	margin: 0;
+	padding: 0;
 }
 // Общие стили ///////////////
 
@@ -51,28 +51,28 @@ h2{
 
 // Чекбокс
 .checkbox {
-    display: none;
+	display: none;
 }
 .checkbox-custom {
-    position: relative;      
-    width: 21px;             
-    height: 21px;            
-    background:url(../img/chek1.png) no-repeat;
+	position: relative;      
+	width: 21px;             
+	height: 21px;            
+	background:url(../img/chek1.png) no-repeat;
 }
 .checkbox-custom, .label {
-    display: inline-block;
-    vertical-align: middle;
+	display: inline-block;
+	vertical-align: middle;
 }
 .checkbox:checked + .checkbox-custom::before {
-    content: "";             
-    display: block;          
-    position: absolute;      
-    top: 4px;
-    right: 2px;
-    bottom: 2px;
-    left: 3px;
-    background: url(../img/galka.png) no-repeat;
-    border-radius: 2px;
+	content: "";             
+	display: block;          
+	position: absolute;      
+	top: 4px;
+	right: 2px;
+	bottom: 2px;
+	left: 3px;
+	background: url(../img/galka.png) no-repeat;
+	border-radius: 2px;
 }
 
 //////////////////////////////////
@@ -162,109 +162,109 @@ h2{
 }
 /* Меню для мобильных устройств */
 
-    #check_1{
-        display: none;
-        position: fixed;
-        top: 25px;
-        right: 25px;
-        font-size: 50px; 
-    }
-    .anz-perspective{
-        position: fixed;
-        top: 0px;
-        height: 100%;
-        -webkit-perspective: 500px; 
-        perspective: 500px;
-        z-index: 150;
-    }
-  
-    #check_1:checked ~ .anz-perspective{
-        transition: all 1s ease-in-out;
-        left: 0px;
-    }
-    #check_1 ~ .anz-perspective{
-        transition: all 1s ease-in-out;
-        left: -330px;
-    }
-    #check_1:checked ~ .anz-perspective .menu-list-pressed{
-        transition: all 1s ease-in-out;
-        transform: rotateY(0deg);
-    }
-    #check_1 ~ .anz-perspective .menu-list-pressed{
-        transition: all 1s ease-in-out;
-        transform: rotateY(90deg);
-    }
-    .anz-menu-ch{
-        cursor: pointer;    
-    }
+#check_1{
+	display: none;
+	position: fixed;
+	top: 25px;
+	right: 25px;
+	font-size: 50px; 
+}
+.anz-perspective{
+	position: fixed;
+	top: 0px;
+	height: 100%;
+	-webkit-perspective: 500px; 
+	perspective: 500px;
+	z-index: 150;
+}
+
+#check_1:checked ~ .anz-perspective{
+	transition: all 1s ease-in-out;
+	left: 0px;
+}
+#check_1 ~ .anz-perspective{
+	transition: all 1s ease-in-out;
+	left: -330px;
+}
+#check_1:checked ~ .anz-perspective .menu-list-pressed{
+	transition: all 1s ease-in-out;
+	transform: rotateY(0deg);
+}
+#check_1 ~ .anz-perspective .menu-list-pressed{
+	transition: all 1s ease-in-out;
+	transform: rotateY(90deg);
+}
+.anz-menu-ch{
+	cursor: pointer;    
+}
 
 /*конец menu*/
 
 /*menu styles*/
 .anz-menu{
-    text-align: right;
-    .dd-mainmenu{
-    	li{
-    		a{
-    			color: #fff;
-    			font-family: "TondoCorp";
-    			font-size: 16px;
-    		}
-		    a:before{
-		        position: absolute;
-		        bottom: -2px;
-		        left: 0px;
-		        content: '';
-		        width: 0%;
-		        height: 3px;
+	text-align: right;
+	.dd-mainmenu{
+		li{
+			a{
+				color: #fff;
+				font-family: "TondoCorp";
+				font-size: 16px;
+			}
+			a:before{
+				position: absolute;
+				bottom: -2px;
+				left: 0px;
+				content: '';
+				width: 0%;
+				height: 3px;
 		        background: #777;//#cd1719;
 		        transition: width 0.5s ease-in-out;
 		    }
 		    a:hover:before{
-		        width: 100%;
+		    	width: 100%;
 		    }
-    	}
-    }
+		}
+	}
 }
 .menu-list-pressed{
-    border-radius:10px;
-    width: 228px;
-    height: 100%;
-    padding: 30px;
-    line-height: 40px;
-    background: $red;
-    opacity: 0.9;
-    text-align: left;
+	border-radius:10px;
+	width: 228px;
+	height: 100%;
+	padding: 30px;
+	line-height: 40px;
+	background: $red;
+	opacity: 0.9;
+	text-align: left;
 }
 .anz-menu-ch{
-    display: inline-block;
-    width: 41px;
-    height: 43px;
-    font-size: 30px;
-    position: fixed;
-    top: 22px;
-    right:25px;
-    z-index: 9999;
+	display: inline-block;
+	width: 41px;
+	height: 43px;
+	font-size: 30px;
+	position: fixed;
+	top: 22px;
+	right:25px;
+	z-index: 9999;
 }
 .anz-menu-ch:hover{
-    opacity: 0.3;
+	opacity: 0.3;
 }
 .main-menu{
-    text-align: left;
+	text-align: left;
 }
 .anz-menu-ch1{
-    display: inline-block;
-    width: 41px;
-    height: 43px;
-    font-size: 30px;
-    position: fixed;
-    top: 0px;
-    right:-8px;
+	display: inline-block;
+	width: 41px;
+	height: 43px;
+	font-size: 30px;
+	position: fixed;
+	top: 0px;
+	right:-8px;
     // opacity: 0.4;
     cursor: pointer;
 }
 .anz-menu-ch1:hover{
-    opacity: 0.8;
+	opacity: 0.8;
 }
 
 /*Конец menu styles*/
@@ -348,7 +348,7 @@ h2{
 // Обработка ////////////////////
 .dd-header-processing{
 	min-height: 100%;
-    margin-bottom: -242px;
+	margin-bottom: -242px;
 	width: 100%;
 	background-size:cover; 
 	.main-container{
@@ -468,7 +468,7 @@ h2{
 	}
 }
 * html .dd-header-processing {
-    height: 100%;
+	height: 100%;
 }
 .proof{
 	height: 300px;
@@ -555,9 +555,9 @@ h2{
 	}
 	.dd-forma{
 		span{
-				display: block;
-				padding-bottom: 10px;
-			}
+			display: block;
+			padding-bottom: 10px;
+		}
 		form{
 			.button1{
 				margin-top: 10px;
@@ -602,6 +602,7 @@ h2{
 		}
 	}	
 }
+
 .proof2{
 	height:250px;
 }
@@ -623,12 +624,14 @@ h2{
 
 }
 
+
 @media only screen and (min-width : 992px) {
 
 	.dd-remember-wrap{
 		width: 828px;
 		padding: 15px 0 29px;
-		margin:192px auto 0px;
+		margin:166px auto 0px;
+		// outline: 1px solid black;
 		.dd-forma{
 			span{
 				padding-bottom: 10px;
@@ -658,21 +661,21 @@ h2{
 					padding: 13px 52px;
 					margin-top: 17px;
 				}
-			.dd-chek-autorization{
-				margin-top: 23px;
-				.dd-chek-lable{
-					float:left;
-				}
-				.dd-rem-the-pass-but{
-					float:left;
-					padding-left: 24px;
+				.dd-chek-autorization{
+					margin-top: 23px;
+					.dd-chek-lable{
+						float:left;
+					}
+					.dd-rem-the-pass-but{
+						float:left;
+						padding-left: 24px;
+					}
 				}
 			}
 		}
 	}
-}
 	.dd-autoriz{
-		margin:186px auto !important;
+		margin:156px auto !important;
 	}	
 
 	.dd-header{ 
@@ -752,7 +755,7 @@ h2{
 			}
 		}
 		.proof{
-			height: 14px;
+			height: 16px;
 		}
 		.proof2{
 			height: 50px;
@@ -783,20 +786,20 @@ h2{
 				padding:7px 0px 7px 73px;
 			}
 		}
-}
+	}
 
-@media only screen and (min-width : 1248px) {
-	.dd-header{ 
-		.main-container{
-			.dd-logo{
-				width: 284px;
+	@media only screen and (min-width : 1248px) {
+		.dd-header{ 
+			.main-container{
+				.dd-logo{
+					width: 284px;
+				}
 			}
 		}
 	}
-}
-@media only screen and (min-width : 1280px) {
-	.main-container{
+	@media only screen and (min-width : 1280px) {
+		.main-container{
 			width: 1260px;
 			margin: 0 auto;			
-	}
-}	
+		}
+	}	

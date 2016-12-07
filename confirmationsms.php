@@ -92,7 +92,7 @@
 			<a href="" class="button1 registration">Зарегистрироваться</a>
 		</div>	
 	</div>
-	<div class="prof1"></div>
+	<div class="proof"></div>
 
 	<section class="dd-footer de-footer">
 		<div class="container">
