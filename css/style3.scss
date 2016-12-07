@@ -236,29 +236,21 @@ $tdu : underline;
 
 		$ld_inp_width : 120px; 
 		.ldh1{
-			margin-left:10px;
-			text-align:center;
-			display: block; 
-			padding:35px;
-			margin-bottom:-25px;
-			
-
-			
+			display: table; 
+			margin: 10px auto; 
+			margin-top: 30px; 
 			.ld1{
-				display: block;
-				padding-bottom:10px;
-				
+				display: table-cell;
+
 				.de-input-reg{
 					width: $ld_inp_width;
-					margin-left:7px;
 				}
 			}
 			.ld2{
-				display: block;
-				
+				display: table-cell;
+
 				.de-input-reg{
 					width: $ld_inp_width;
-					
 				}
 			}
 
@@ -267,21 +259,17 @@ $tdu : underline;
 	}
 
 	.ldh2{
-			display: block; 
-			padding:30px;
-			text-align:center;
-
+		margin-top: 10px;
+		display: table;
+		margin: 10px auto;
 		.ld3{
-			display: block;
-			padding-bottom:10px;
-			
+			display: table-cell;
 			.de-input-reg{
 				width: $ld_inp_width;
-				margin-left:17px;
 			}
 		}
 		.ld4{
-			display: block;
+			display: table-cell;
 			.de-input-reg{
 				width: $ld_inp_width;
 			}
@@ -290,13 +278,13 @@ $tdu : underline;
 	}
 
 	.ldh3{
-		display: block;
+		display: table;
 		margin: 4px auto 10px; 
 		.ldi1{
-			display: block;
+			display: table-cell;
 		}
 		.ldi2{
-			display: block;
+			display: table-cell;
 			span{
 				a{
 					color:#fff; 
@@ -336,53 +324,6 @@ $tdu : underline;
 
 .proof2{
 	height: 200px; 
-}
-
-
-.common-form{
-	width: 	100%;
-	background: $red;
-	padding: 13px;
-	-webkit-border-radius: 15px;
-	-moz-border-radius: 15px;
-	border-radius: 10px;
-	color: #fff;
-	font-size:16px;
-	font-family: 'TondoCorp'; 
-	text-align: center;
-	padding-bottom: 28px;
-	max-width: 830px;
-	margin: 0 auto;
-	margin-top: 200px;
-
-}
-
-.common-form_title{
-	display: block;
-	//border: 2px dased #ee9e9e;	
-	font-size: 18px;
-	text-decoration: underline;
-	margin: 0 auto;
-	margin-bottom: 30px;
-
-}
-
-.db-user-profile{
-	width: 	100%;
-	.db-user-profile_top{
-		width: 	100%;
-		.db-user-profile_top__left{
-			width: 	100%;
-		}
-		.db-user-profile_top__right{
-			width: 	100%;
-		}
-	}	
-	a{
-		color: #fff;
-		text-decoration: underline;
-	}
-
 }
 
 @media only screen and (min-width : 285px) {
@@ -597,7 +538,6 @@ $tdu : underline;
 }
 
 @media only screen and (min-width : 830px) {
-
 	//
 	.de-confirm_by_sms{
 		width: 826px;
@@ -610,7 +550,6 @@ $tdu : underline;
 	.userprofile{
 		margin: 0 auto 150px; 
 		width: 830px;
-		height:280px;
 		$inp_width : 200px; 
 		.up-form2{
 
@@ -621,7 +560,7 @@ $tdu : underline;
 				margin: 41px auto 30px;	
 				margin: 18px auto 30px;	
 				margin: 40px auto 30px;
-				padding:0;
+
 				width: 660px; 
 				text-align: left;
 				// width: 560px;
@@ -632,7 +571,7 @@ $tdu : underline;
 					padding-left: 13px;
 					// outline: 1px yellow solid;
 					text-align: left;
-					display:table-cell;
+					display: inline-block;
 					.label11{
 						margin-left: 10px;
 						// outline: 1px white dashed;						
@@ -649,9 +588,9 @@ $tdu : underline;
 				}
 				.ld2{
 					padding-left: 13px;
-					display:table-cell;
+					display: inline-block;
 					// width: 270px;
-					 outline: 1px yellow dashed;
+					// outline: 1px yellow dashed;
 					.label12{
 						// margin-left: 10px;
 						// outline: 1px white dashed;
@@ -682,7 +621,7 @@ $tdu : underline;
 					padding-left: 13px;
 					// outline: 1px yellow solid;
 					text-align: left;
-					display:table-cell;
+					display: inline-block;
 					.label13{
 						margin-left: 10px;
 						// outline: 1px white dashed;						
@@ -699,7 +638,7 @@ $tdu : underline;
 				}
 				.ld4{
 					padding-left: 13px;
-					display:table-cell;
+					display: inline-block;
 					// width: 270px;
 					// outline: 1px yellow dashed;
 					.label14{
@@ -722,17 +661,13 @@ $tdu : underline;
 		.ldh3{
 			font-size: 14px;
 			margin-bottom: 22px;
-			outline:1px solid black;
-
 				// padding-left: 30px;
 				.ldi1{
-					display:table-cell;
-					
-				
+					display: inline-block;
+					margin-right: 19px;
 				}
 				.ldi2{
 					
-					display:table-cell;
 					
 				}
 			}
@@ -756,44 +691,6 @@ $tdu : underline;
 	.de-confirm_by_sms{
 		width: 826px;		
 	}
-	.db-user-profile{
-		
-		.db-user-profile_top{
-			display: table;
-			.db-user-profile_top__left{
-				width: 50%;
-				display: table-cell;
-			}
-			.db-user-profile_top__right{
-				width: 50%;
-				display: table-cell;
-			}
-		}	
-	}
-	.db-row-part{
-		display: table;
-		margin-bottom: 13px;
-		.db-row-part_left{
-			display: table-cell;
-			width: 30%;
-			text-align: right;
-
-		}
-		.db-row-part_right{
-			display: table-cell;
-			width: 70%;
-			text-align: left;
-			padding-left: 30px;
-		}
-
-	}
-}
-.ldh1{
-			margin-left:10px;
-			text-align:center;
-			display: block; 
-			padding:35px;
-			margin-bottom:-25px;
 }
 
 @media only screen and (min-width : 1248px) {
