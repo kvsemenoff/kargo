@@ -624,12 +624,14 @@ h2{
 
 }
 
+
 @media only screen and (min-width : 992px) {
 
 	.dd-remember-wrap{
 		width: 828px;
 		padding: 15px 0 29px;
-		margin:192px auto 0px;
+		margin:166px auto 0px;
+		// outline: 1px solid black;
 		.dd-forma{
 			span{
 				padding-bottom: 10px;
