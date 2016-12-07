@@ -142,7 +142,7 @@
 	</div>
 
 
-	<div class="de-proof"></div>
+	<div class="de-proof22"></div>
 
 	<section class="dd-footer">
 		<div class="container">
