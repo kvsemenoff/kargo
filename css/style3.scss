@@ -17,23 +17,24 @@ $tdu : underline;
 .prof3{
 	height: 200px;	
 }
-
+.de-proof{
+	height: 190px;
+}
 ////////////////////////////// 
 ////////////////////////////// 
 ////////////////////////////// 
 
 .de-confirm_by_sms{
+	// outline:1px solid black;
 	border-radius: 10px; 
 	font-family: 'TondoCorp'; 
 	background-color: $red; 
-	margin: 0 3px; 
+	// margin: 0 3px; 
 	padding: 10px; 
-	margin-top: 250px;
-	margin-bottom: 280px;
-
+	// margin-top: 250px;
+	// margin-bottom: 280px;
 	margin-top: 50px;
 	margin-bottom: 50px;
-
 	text-align: center; 
 	color: #fff; 
 	.line1{
@@ -300,10 +301,10 @@ $tdu : underline;
 }
 
 // #2.1 header 
-.de-header-processing{
+#de-header-processing{
 	// background-color: #FF6565; 
-	min-height: 380px !important; 
-	margin-bottom: 1px; 
+	min-height: 90px !important; 
+	margin-bottom: 1px !important; 
 	width: 100%; 
 }
 // #2.2 footer
@@ -434,6 +435,9 @@ $tdu : underline;
 }
 }
 
+
+
+
 @media only screen and (min-width : 362px) {
 	.userprofile{
 
@@ -543,17 +547,17 @@ $tdu : underline;
 		width: 826px;
 		margin: 0 auto; 
 		margin-top: 70px;
-		margin-bottom: 150px;
+		// margin-bottom: 150px;
 	}
 
 	// 
 	.userprofile{
-		margin: 0 auto 150px; 
+		margin: 15px auto 30px; 
 		width: 830px;
 		$inp_width : 200px; 
 		.up-form2{
 
-			margin: 30px auto 100px;
+			margin: 30px auto;
 			
 			.ldh1{
 				// outline: 3px solid blue; 
@@ -684,12 +688,25 @@ $tdu : underline;
 }
 
 @media only screen and (min-width : 992px) {
+	.de-proof{
+	height: 2px;
+}
+	.demtop{
+		margin-top: 95px;
+	}
+
+	#de-header-processing{	
+	min-height: 80px !important; 
+	margin-bottom: 1px !important; 
+	width: 100%; 
+}
 	//
 	.proof2{
 		// height: 900px;
 	}
 	.de-confirm_by_sms{
-		width: 826px;		
+		width: 826px;
+		margin-top: 210px;		
 	}
 }
 

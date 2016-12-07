@@ -85,7 +85,7 @@
 								<input class="input-class de-input-reg input11" type="text" value="" placeholder="">
 							</div>
 						</div>
-									
+						
 						<div class="db-row-part">
 							<div class="db-row-part_left">
 								<span class="label11">Email</span>
@@ -104,7 +104,7 @@
 								<input class="input-class de-input-reg input11" type="text" value="" placeholder="">
 							</div>
 						</div>
-									
+						
 						<div class="db-row-part">
 							<div class="db-row-part_left">
 								<span class="label11">Телефон</span>
@@ -143,7 +143,7 @@
 	</div>
 
 
-	<div class="prof3"></div>
+	<div class="de-proof"></div>
 
 	<section class="dd-footer">
 		<div class="container">
