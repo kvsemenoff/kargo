@@ -173,6 +173,53 @@
 	}
 }
 
+.common-form{
+	width: 	100%;
+	background: #dd3c3c;
+	padding: 13px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 10px;
+	color: #fff;
+	font-size:16px;
+	font-family: 'TondoCorp'; 
+	text-align: center;
+	padding-bottom: 28px;
+	max-width: 830px;
+	margin: 0 auto;
+	margin-top: 200px;
+
+}
+
+.common-form_title{
+	display: block;
+	//border: 2px dased #ee9e9e;	
+	font-size: 18px;
+	text-decoration: underline;
+	margin: 0 auto;
+	margin-bottom: 30px;
+
+}
+
+.db-user-profile{
+	width: 	100%;
+	.db-user-profile_top{
+		width: 	100%;
+		.db-user-profile_top__left{
+			width: 	100%;
+		}
+		.db-user-profile_top__right{
+			width: 	100%;
+		}
+	}	
+	a{
+		color: #fff;
+		text-decoration: underline;
+	}
+
+}
+
+
 @media only screen and (min-width : 320px) {
 	
 	}
@@ -238,7 +285,7 @@
 			padding:16px 0 0 20px;
 			
 		}
-		
+
 		.db-all_days{
 			border-right:3px solid #b7b6b6;
 			height:63px;
@@ -275,6 +322,45 @@
 			margin-top:65px;
 		}
 	}
+}
+.db-user-profile{
+		
+		.db-user-profile_top{
+			display: table;
+			.db-user-profile_top__left{
+				width: 50%;
+				display: table-cell;
+			}
+			.db-user-profile_top__right{
+				width: 50%;
+				display: table-cell;
+			}
+		}	
+	}
+	.db-row-part{
+		display: table;
+		margin-bottom: 13px;
+		.db-row-part_left{
+			display: table-cell;
+			width: 30%;
+			text-align: right;
+
+		}
+		.db-row-part_right{
+			display: table-cell;
+			width: 70%;
+			text-align: left;
+			padding-left: 30px;
+		}
+
+	}
+
+.ldh1{
+			margin-left:10px;
+			text-align:center;
+			display: block; 
+			padding:35px;
+			margin-bottom:-25px;
 }
 
 	
