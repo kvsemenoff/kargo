@@ -53,8 +53,7 @@
 					<div class="clearfix"></div>
 				</div>
 			</div>
-		</div>
-		<div class="anz-menu">
+			<div class="anz-menu">
 			<input type="checkbox" id="check_1" class=""/>
 			<label class="anz-menu-ch hidden-lg hidden-md" for="check_1"><i class="fa fa-bars" aria-hidden="true"></i><img src="img/menu-ico.png"></label>
 			<div class="anz-perspective">
@@ -69,6 +68,8 @@
 				</div>
 			</div>
 		</div>
+		</div>
+		
 
 		<div class="n-content">
 			<div class="n-content-inner vertical-align">
