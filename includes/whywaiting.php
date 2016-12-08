@@ -72,7 +72,7 @@
 				</div>
 			</div>	
 			<br>
-			<input type="submit" value="Попробовать Бесплатно" class="button1">
+			<input type="submit" value="Попробовать Бесплатно" class="button1 db-button1-common">
 		</form>
 
 <!-- 	<div class="up-form3">
