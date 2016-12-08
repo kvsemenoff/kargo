@@ -31,8 +31,8 @@
 	<script src="js/jquery.maskedinput.min.js"></script>
 	<script src="js/common.js"></script>
 	
-	<div class="df-for-footer">
-
+	<div class="n-wrapper">
+		<div class="n-header">
 		<section class="dd-header dd-header-pass-remember">
 			<div class="main-container">
 				<div class="dd-logo">
@@ -53,7 +53,7 @@
 				<div class="clearfix"></div>
 			</div>
 		</section>
-
+		</div>
 		<div class="anz-menu">
 			<input type="checkbox" id="check_1" class=""/>
 			<label class="anz-menu-ch hidden-lg hidden-md" for="check_1"><i class="fa fa-bars" aria-hidden="true"></i><img src="img/menu-ico.png"></label>
@@ -70,7 +70,8 @@
 			</div>
 		</div>
 
-		
+		<div class="n-content">
+			<div class="n-content-inner vertical-align">
 		<form action="#" class="common-form">
 			<span class="common-form_title">Регистрация пользователя</span>
 			<div class="db-user-profile">
@@ -135,15 +136,16 @@
 			<br>
 			<input type="submit" value="Зарегистрироваться" class="button1">
 		</form>
+		</div>
+		</div>
 
 
 		
 
-	</div>
+	
 
 
-	<div class="de-proof22"></div>
-
+	<div class="n-footer">
 	<section class="dd-footer">
 		<div class="container">
 			<div class="row">
@@ -186,7 +188,8 @@
 			</div>
 		</div>
 	</section>
-
+	</div>
+</div>
 
 </body>
 </html>

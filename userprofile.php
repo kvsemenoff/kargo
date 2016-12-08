@@ -79,7 +79,7 @@
 			</div>
 		</div>
 		<div class="n-content">
-			<div class="n-content-inner">
+			<div class="n-content-inner vertical-align">
 				<div class="userprofile demtop">
 					<div class="up-caption">
 						<span class="caption">
