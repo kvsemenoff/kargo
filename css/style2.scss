@@ -189,7 +189,6 @@
 	padding-bottom: 28px;
 	max-width: 830px;
 	margin: 0 auto;
-	margin-top: 125px;
 
 }
 
@@ -328,14 +327,27 @@
 			margin-top:65px;
 		}
 	}
+.db-common-align{
+	position:relative;
+	margin-top:50px;
+}
+.db-common-img{
+	position:absolute;
+	left: 50%;
+	transform: translate(-50%, 0);
+	top:-28px;
+}
 
 .db-user-profile{
-		
+
+		margin-top: 37px;
+
 		.db-user-profile_top{
 			display: table;
 			.db-user-profile_top__left{
 				width: 50%;
 				display: table-cell;
+				padding-left: 158px;
 			}
 			.db-user-profile_top__right{
 				width: 50%;
