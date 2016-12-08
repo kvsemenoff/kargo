@@ -4,7 +4,7 @@
 
 //используется для прижатия футера к низу браузера
 .df-minheight{
-	min-height: 350px !important;
+	// min-height: 350px !important;
 }
 html, body {
 	height: 100%;
@@ -317,7 +317,7 @@ html, body {
 		}
 	}
 	.df-bottomtext{
-		margin: 7px 0 185px 0;
+		margin: 7px 0 90px 0;
 		text-align: center;
 		.df-show-in{
 			display: inline-block;
@@ -495,7 +495,7 @@ html, body {
 .df-password-change{	
 	font-family: TondoCorp;
 	//margin-bottom: 170px;
-	margin-top: 40px;
+	// margin-top: 40px;
 	.df-caption-top{
 		font-size: 16px; color:#373737;
 		text-align: center;
